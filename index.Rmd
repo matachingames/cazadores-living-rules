@@ -1,5 +1,5 @@
 --- 
-title: "Cazadores - Living Rules"
+title: "Cazadores-Living-Rules"
 author: "Jose 'Jae' Espinoza. Matachin Games."
 date: "`r Sys.Date()`"
 description: "Cazadores, a cooperative miniatures game of daring hunts."
