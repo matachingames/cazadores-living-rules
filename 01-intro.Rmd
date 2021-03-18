@@ -1,0 +1,41 @@
+# Book of The Hunter {#hunterintro}
+
+## The Game
+
+*Cazadores* is a narrative-focused miniatures game that can be played solo or cooperatively with up to 4 players. It only requires 1-4 miniatures per side and a 24” x 24” space, making it a great “kitchen table” game and introduction to the hobby.
+
+Each player creates a **[Cazador](#cazadores)**, a brave and formidable hunter hellbent on defeating fearsome mythical beasts, twisted beings, uncanny horrors, and other terrifying **[Adversaries](#foes)**. Cazadores are joined by a rare few **[Companions](#cazadores)** willing to follow them into the wilderness, through the desert, across mountains, and into the lairs of monstrous things and the darkness between the planes.
+
+### Narrative Gaming {-}
+
+*Cazadores* approaches miniatures gaming with a slightly different perspective than traditional wargames. At its core, the game is more interested in helping you tell stories about dynamic encounters between your unique Cazadores and frightening **[Foes](#foes)** than ensuring there is a careful gameplay balance and highly codified rules more conducive to competitive wargaming. In some ways *Cazadores* owes just as much as to tabletop role-playing games as it does to other narrative wargames like *Necromunda*, *Mordheim*, *Inquisitor*, *Rangers of Shadow Deep*, and *The Dolorous Stroke*.
+
+When you play *Cazadores*, I urge you to:
+
+- Act as best fits your characters than to eke out an optimal outcome.
+- Resolve ambiguous situations in the way that is most dramatically satisfying. The rules are a framework to expand and improvise.
+- Play to find out what happens rather than play to win. 
+
+### Using These Books {-}
+
+*Cazadores* is divided into three books for ease of use at the table. *[The Hunter](#hunterintro)*, the book you are reading now, has everything you need to know to play the game and create your Cazadores and Companions. *[The Adversary](#adversaryintro)* has the information for the antagonists that stand against your Pack. *[The Eternal Hunt](#eternalintro)* contains rules and tables to link Hunts together into campaigns.
+
+## The World {#worldsum}
+
+The world of *Cazadores* is, purposefully, a bundle of vague ideas rather than a detailed setting. It’s a world that never was, inspired by the greek myths and cautionary children’s tales that lived in my grandfather’s library. It’s all those stories seen through older eyes looking for escapism, excitement, and terrors that can be confronted by the bravest among us. You can choose to incorporate these bits of lore and details seeded throughout the text as you see fit.
+
+In *Cazadores*, the world is brimming with danger and you’ll find that an undertone of horror courses through nearly all of the writing. You do not need to focus on this if you’re not interested in that or if you’re playing with others who might be too young or not amenable to this approach to the game. 
+
+### The Hunt {-}
+
+The Hunt is the tradition spanning centuries that is the impetus for the game. It is not honoured or glorified. It is often viewed as necessary, if despicable. Your game might take place during the Bronze Age, Medieval Era, something akin to Victorian England, or any other time. *The Hunt will be ever present*.
+
+ At its base, the game assumes a time similar to the 17th or 18th century of our own world, with a few severe anachronisms thrown in. There are flowing capes, masquerades, grand literary and scientific achievements and more all alongside plated armours, portable explosives, unnatural magicks, and the terrors of the Hunt.
+
+### The Cazadores {-}
+
+Cazadores, the masters of the Hunt, are not always considered heroes, though they are eminent. Their ranks are made of the zealous, the honour-bound, the torchbearers of familial tradition, and those desperate souls with no other means to survive in the world. Covenants bind them to each other and dictate how and why they Hunt, but just as many are unbound and run loose like wolves on the prowl.
+
+### The Adversaries {-}
+
+Creatures of legend and incredible power, though not all malevolent. They are sometimes the remnants of ages eclipsed by the rise of humanity, and sometimes the vanguards of a new era that will eventually erase our kind from history. Their kind spans artificial constructs to celestial beings. 

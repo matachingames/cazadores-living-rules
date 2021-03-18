@@ -1,0 +1,56 @@
+# Overview {#overview}
+
+## What You Need To Play {#materials}
+
+*Cazadores* is played on a small **Play Area** (24” x 24”) with groups of 1-4 **Models** per side. In addition to Models, you will need:
+
+- **[Terrain](#terrain)** to bring the Play Area to life.
+- A handful of 10-sided dice (d10s).
+- - 10 d10s one of color.
+  - 2 d10s of a different color.
+- 1 standard 52-card deck of playing cards for the **[Adversary Deck](#adeck)**.
+- Tape measure or ruler in inches.
+- Tokens to track **[Conditions](#conditions)**.
+- Model sheets (from [Cazadores on itch.io](https://matachingames.itch.io/cazadores)), pencil, and paper clips.
+
+<br/>
+
+> Throughout, some words are bolded and capitalized (eg., **Adversary**) to indicate they are game terms with specific rules. Bolding only occurs the first time a term appears in a chapter.
+
+
+
+## Models & Scale {#scale}
+
+Models refer to miniature figures used to represent the various characters in the game. These rules are written with 28mm scale Models in mind, although play with smaller Models is possible by measuring using centimetres instead of inches.
+
+ The players’ Models, the **[Cazadores](#cazadores)**, are the protagonists of the game, unique characters with special equipment and abilities to hunt down monstrous beasts and confront other dangers. Cazadores are joined by **[Companions](#cazadores)**, Models representing supporting characters.
+
+**[Foes](#foes)** are made up of Models depicting creatures, human and otherwise, that oppose the Cazadores. Importantly, minor Foes are referred to as **[Minions](#ftypes)**, while the major Foe in a Hunt is the **[Adversary](#adeck)**. Adversaries are usually represented by larger and more imposing Models than other Foes.
+
+ The rules also refer to **Hostile** and **Friendly** Models to clarify if some in-game effects, such as **[Area](#areas)** effects, only apply to some Models. Cazadores and Companions are Friendly to each other and Hostile to Foes. Foes are Friendly to each other and Hostile to Cazadores and Companions.
+
+## Measurement {#measurement}
+
+All distances in the game are measured in inches. When measuring, always:
+
+- Make movement measurements from the same edge of the **Model’s** base throughout the move.
+- Use the closest points between two objects when measuring the distance between them.
+
+<br/>
+
+> Players can choose to measure distances at any point. 
+
+### Line of Sight {#los}
+
+**Line of Sight (LOS)** is used to determine if **Models** can see each other for the purposes of any **[Action](#actions)**. When determining LOS, imagine a cylinder that extends from the base of the unit up to its eyeline. Models can draw LOS from any point in 360° around this imaginary cylinder. 
+
+A Model has LOS to another if it can draw a straight line from any part of its cylinder to another without crossing any **[Blocking Terrain](#terrain)** or Hostile Models. LOS is always reciprocal so that if a Model can claim to have LOS of another, the other Model is also considered to have LOS back.
+
+## Overlapping, Placement, & Pushing {#overlap}
+
+Models’ bases cannot overlap with one another at any point. The only exception is that Models may briefly overlap with other Friendly Models when taking a **[Movement Action](#actions)**, however, they still cannot end their **[Turn](#turns)** overlapping any other Model.
+
+Sometimes Models would be forced to overlap due to an in-game effect, such as a Model being pushed away due to an **[Attack](#attacks)** and being forced to move into another. In these cases, any Models in the way may be moved directly back by the minimum amount necessary to make space for the affected Model. If a Model is pushed into **[Impassable Terrain](#terrain)** the Model stops moving when its base comes into contact with the terrain, and any other Models being pushed into this Model also stop.
+
+Occasionally, a Model might be picked up and **Placed** somewhere else on the board, perhaps due to being grabbed and thrown. In these cases simply lift the Model up and place it down at its final position. If other Models must be moved to accommodate for this, use the overlapping guidelines above.
+
