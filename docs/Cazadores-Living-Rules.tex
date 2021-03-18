@@ -1,0 +1,1168 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Cazadores - Living Rules},
+  pdfauthor={Jose `Jae' Espinoza. Matachin Games.},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{Cazadores - Living Rules}
+\author{Jose `Jae' Espinoza. Matachin Games.}
+\date{2021-03-18}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{welcome}{%
+\chapter{Welcome}\label{welcome}}
+
+This is the living rules document for Cazadores, a cooperative miniatures game of daring hunts.
+
+\textbf{Explain that people can download from this website}
+
+\hypertarget{contact-other-info}{%
+\section{Contact \& Other Info}\label{contact-other-info}}
+
+Get Model sheets, play aids, counters, and versions of the game with nice layout and extra goodies at \href{https://matachingames.itch.io/cazadores}{Cazadores on Itch.io}
+
+Follow development at \href{https://matachin.games}{matachin.games}
+
+Email me (Jae) at \href{mailto:matachingames@pm.me}{\nolinkurl{matachingames@pm.me}}
+
+\hypertarget{copyright-licensing}{%
+\section{Copyright \& Licensing}\label{copyright-licensing}}
+
+\hypertarget{hunterintro}{%
+\chapter{Book of The Hunter}\label{hunterintro}}
+
+\hypertarget{the-game}{%
+\section{The Game}\label{the-game}}
+
+\emph{Cazadores} is a narrative-focused miniatures game that can be played solo or cooperatively with up to 4 players. It only requires 1-4 miniatures per side and a 24'' x 24'' space, making it a great ``kitchen table'' game and introduction to the hobby.
+
+Each player creates a \textbf{\protect\hyperlink{cazadores}{Cazador}}, a brave and formidable hunter hellbent on defeating fearsome mythical beasts, twisted beings, uncanny horrors, and other terrifying \textbf{\protect\hyperlink{foes}{Adversaries}}. Cazadores are joined by a rare few \textbf{\protect\hyperlink{cazadores}{Companions}} willing to follow them into the wilderness, through the desert, across mountains, and into the lairs of monstrous things and the darkness between the planes.
+
+\hypertarget{narrative-gaming}{%
+\subsection*{Narrative Gaming}\label{narrative-gaming}}
+\addcontentsline{toc}{subsection}{Narrative Gaming}
+
+\emph{Cazadores} approaches miniatures gaming with a slightly different perspective than traditional wargames. At its core, the game is more interested in helping you tell stories about dynamic encounters between your unique Cazadores and frightening \textbf{\protect\hyperlink{foes}{Foes}} than ensuring there is a careful gameplay balance and highly codified rules more conducive to competitive wargaming. In some ways \emph{Cazadores} owes just as much as to tabletop role-playing games as it does to other narrative wargames like \emph{Necromunda}, \emph{Mordheim}, \emph{Inquisitor}, \emph{Rangers of Shadow Deep}, and \emph{The Dolorous Stroke}.
+
+When you play \emph{Cazadores}, I urge you to:
+
+\begin{itemize}
+\tightlist
+\item
+  Act as best fits your characters than to eke out an optimal outcome.
+\item
+  Resolve ambiguous situations in the way that is most dramatically satisfying. The rules are a framework to expand and improvise.
+\item
+  Play to find out what happens rather than play to win.
+\end{itemize}
+
+\hypertarget{using-these-books}{%
+\subsection*{Using These Books}\label{using-these-books}}
+\addcontentsline{toc}{subsection}{Using These Books}
+
+\emph{Cazadores} is divided into three books for ease of use at the table. \emph{\protect\hyperlink{hunterintro}{The Hunter}}, the book you are reading now, has everything you need to know to play the game and create your Cazadores and Companions. \emph{\protect\hyperlink{adversaryintro}{The Adversary}} has the information for the antagonists that stand against your Pack. \emph{\protect\hyperlink{eternalintro}{The Eternal Hunt}} contains rules and tables to link Hunts together into campaigns.
+
+\hypertarget{worldsum}{%
+\section{The World}\label{worldsum}}
+
+The world of \emph{Cazadores} is, purposefully, a bundle of vague ideas rather than a detailed setting. It's a world that never was, inspired by the greek myths and cautionary children's tales that lived in my grandfather's library. It's all those stories seen through older eyes looking for escapism, excitement, and terrors that can be confronted by the bravest among us. You can choose to incorporate these bits of lore and details seeded throughout the text as you see fit.
+
+In \emph{Cazadores}, the world is brimming with danger and you'll find that an undertone of horror courses through nearly all of the writing. You do not need to focus on this if you're not interested in that or if you're playing with others who might be too young or not amenable to this approach to the game.
+
+\hypertarget{the-hunt}{%
+\subsection*{The Hunt}\label{the-hunt}}
+\addcontentsline{toc}{subsection}{The Hunt}
+
+The Hunt is the tradition spanning centuries that is the impetus for the game. It is not honoured or glorified. It is often viewed as necessary, if despicable. Your game might take place during the Bronze Age, Medieval Era, something akin to Victorian England, or any other time. \emph{The Hunt will be ever present}.
+
+ At its base, the game assumes a time similar to the 17th or 18th century of our own world, with a few severe anachronisms thrown in. There are flowing capes, masquerades, grand literary and scientific achievements and more all alongside plated armours, portable explosives, unnatural magicks, and the terrors of the Hunt.
+
+\hypertarget{the-cazadores}{%
+\subsection*{The Cazadores}\label{the-cazadores}}
+\addcontentsline{toc}{subsection}{The Cazadores}
+
+Cazadores, the masters of the Hunt, are not always considered heroes, though they are eminent. Their ranks are made of the zealous, the honour-bound, the torchbearers of familial tradition, and those desperate souls with no other means to survive in the world. Covenants bind them to each other and dictate how and why they Hunt, but just as many are unbound and run loose like wolves on the prowl.
+
+\hypertarget{the-adversaries}{%
+\subsection*{The Adversaries}\label{the-adversaries}}
+\addcontentsline{toc}{subsection}{The Adversaries}
+
+Creatures of legend and incredible power, though not all malevolent. They are sometimes the remnants of ages eclipsed by the rise of humanity, and sometimes the vanguards of a new era that will eventually erase our kind from history. Their kind spans artificial constructs to celestial beings.
+
+\hypertarget{overview}{%
+\chapter{Overview}\label{overview}}
+
+\hypertarget{materials}{%
+\section{What You Need To Play}\label{materials}}
+
+\emph{Cazadores} is played on a small \textbf{Play Area} (24'' x 24'') with groups of 1-4 \textbf{Models} per side. In addition to Models, you will need:
+
+\begin{itemize}
+\item
+  \textbf{\protect\hyperlink{terrain}{Terrain}} to bring the Play Area to life.
+\item
+  A handful of 10-sided dice (d10s).
+\item
+  \begin{itemize}
+  \tightlist
+  \item
+    10 d10s one of color.
+  \item
+    2 d10s of a different color.
+  \end{itemize}
+\item
+  1 standard 52-card deck of playing cards for the \textbf{\protect\hyperlink{adeck}{Adversary Deck}}.
+\item
+  Tape measure or ruler in inches.
+\item
+  Tokens to track \textbf{\protect\hyperlink{conditions}{Conditions}}.
+\item
+  Model sheets (from \href{https://matachingames.itch.io/cazadores}{Cazadores on itch.io}), pencil, and paper clips.
+\end{itemize}
+
+\begin{quote}
+Throughout, some words are bolded and capitalized (eg., \textbf{Adversary}) to indicate they are game terms with specific rules. Bolding only occurs the first time a term appears in a chapter.
+\end{quote}
+
+\hypertarget{scale}{%
+\section{Models \& Scale}\label{scale}}
+
+Models refer to miniature figures used to represent the various characters in the game. These rules are written with 28mm scale Models in mind, although play with smaller Models is possible by measuring using centimetres instead of inches.
+
+ The players' Models, the \textbf{\protect\hyperlink{cazadores}{Cazadores}}, are the protagonists of the game, unique characters with special equipment and abilities to hunt down monstrous beasts and confront other dangers. Cazadores are joined by \textbf{\protect\hyperlink{cazadores}{Companions}}, Models representing supporting characters.
+
+\textbf{\protect\hyperlink{foes}{Foes}} are made up of Models depicting creatures, human and otherwise, that oppose the Cazadores. Importantly, minor Foes are referred to as \textbf{\protect\hyperlink{ftypes}{Minions}}, while the major Foe in a Hunt is the \textbf{\protect\hyperlink{adeck}{Adversary}}. Adversaries are usually represented by larger and more imposing Models than other Foes.
+
+ The rules also refer to \textbf{Hostile} and \textbf{Friendly} Models to clarify if some in-game effects, such as \textbf{\protect\hyperlink{areas}{Area}} effects, only apply to some Models. Cazadores and Companions are Friendly to each other and Hostile to Foes. Foes are Friendly to each other and Hostile to Cazadores and Companions.
+
+\hypertarget{measurement}{%
+\section{Measurement}\label{measurement}}
+
+All distances in the game are measured in inches. When measuring, always:
+
+\begin{itemize}
+\tightlist
+\item
+  Make movement measurements from the same edge of the \textbf{Model's} base throughout the move.
+\item
+  Use the closest points between two objects when measuring the distance between them.
+\end{itemize}
+
+\begin{quote}
+Players can choose to measure distances at any point.
+\end{quote}
+
+\hypertarget{los}{%
+\subsection{Line of Sight}\label{los}}
+
+\textbf{Line of Sight (LOS)} is used to determine if \textbf{Models} can see each other for the purposes of any \textbf{\protect\hyperlink{actions}{Action}}. When determining LOS, imagine a cylinder that extends from the base of the unit up to its eyeline. Models can draw LOS from any point in 360° around this imaginary cylinder.
+
+A Model has LOS to another if it can draw a straight line from any part of its cylinder to another without crossing any \textbf{\protect\hyperlink{terrain}{Blocking Terrain}} or Hostile Models. LOS is always reciprocal so that if a Model can claim to have LOS of another, the other Model is also considered to have LOS back.
+
+\hypertarget{overlap}{%
+\section{Overlapping, Placement, \& Pushing}\label{overlap}}
+
+Models' bases cannot overlap with one another at any point. The only exception is that Models may briefly overlap with other Friendly Models when taking a \textbf{\protect\hyperlink{actions}{Movement Action}}, however, they still cannot end their \textbf{\protect\hyperlink{turns}{Turn}} overlapping any other Model.
+
+Sometimes Models would be forced to overlap due to an in-game effect, such as a Model being pushed away due to an \textbf{\protect\hyperlink{attacks}{Attack}} and being forced to move into another. In these cases, any Models in the way may be moved directly back by the minimum amount necessary to make space for the affected Model. If a Model is pushed into \textbf{\protect\hyperlink{terrain}{Impassable Terrain}} the Model stops moving when its base comes into contact with the terrain, and any other Models being pushed into this Model also stop.
+
+Occasionally, a Model might be picked up and \textbf{Placed} somewhere else on the board, perhaps due to being grabbed and thrown. In these cases simply lift the Model up and place it down at its final position. If other Models must be moved to accommodate for this, use the overlapping guidelines above.
+
+\hypertarget{basics}{%
+\chapter{The Basics}\label{basics}}
+
+\hypertarget{core-mechanics}{%
+\section{Core Mechanics}\label{core-mechanics}}
+
+\hypertarget{checks}{%
+\subsection*{Checks}\label{checks}}
+\addcontentsline{toc}{subsection}{Checks}
+
+The central mechanic in the game is referred to as a \textbf{Check} and is used to determine the result of a \textbf{Model's Actions}.
+
+Checks are made with a pool of d10s equal to the Model's \textbf{Rating} in the relevant \textbf{Skill} plus its linked \textbf{Attribute} (e.g., \textbf{Melee Checks} use a dice pool composed of a number of d10s equal to the Model's \textbf{Melee Rating} plus their \textbf{Prowess Rating}). If a Model does not have a relevant Skill Rating for the Check, then it makes the Check using only the associated \textbf{Attribute Rating}. To this pool, you always add the \textbf{Difficulty Die} (1d10 of a different color).
+
+All of the dice are rolled together, any die that rolls equal to or higher than the value of the Difficulty Die is considered a \textbf{Success}. A single Success is often all that is required for a Model to accomplish their Action. If a Model fails a Check, they do nothing else but can still execute their free \textbf{Move Action} if it's available.
+
+\hypertarget{dt}{%
+\subsection*{Targets \& Difficulty Thresholds}\label{dt}}
+\addcontentsline{toc}{subsection}{Targets \& Difficulty Thresholds}
+
+To simulate the difficulty involved in some \textbf{Checks}, like hitting a moving \textbf{Target} with a \textbf{Shooting Attack}, the game employs \textbf{Difficulty Thresholds} \textbf{(DT)}.
+
+Difficulty Thresholds are a minimum value that the dice rolled must equal or exceed to be considered a Success beyond the value rolled on the Difficulty Die. The DT might be a fixed value (e.g., DT 5) or it might refer to the value for one of the Target's Ratings (e.g., DT Target DEF).  
+
+During a Check, the Difficulty Die might come up as greater than the DT for any Check. If so, it overrides the DT to determine the value the dice must equal. 
+
+\begin{quote}
+For example, if a Model attempts a Shooting Attack against a Target, the Target's attempt to protect itself using its Defence as a DT (DT Target DEF = 6). Dice rolled must be equal to or greater than 6 at \emph{minimum} to be considered Successes.
+\end{quote}
+
+\hypertarget{crits}{%
+\subsection*{Criticals \& Abilities}\label{crits}}
+\addcontentsline{toc}{subsection}{Criticals \& Abilities}
+
+Any die rolled that results in a 10 (presented as ``0'' on some dice) is considered a \textbf{Critical}. Criticals can be used to activate \textbf{Abilities}, such as those present on some \textbf{Gear}. A Critical used in this manner still counts as a Success.
+
+Each Critical can only be used once to activate an Ability and each Ability can only be activated once per \textbf{Turn}. However, if a roll has multiple \textbf{Criticals} these can be used to activate multiple Abilities.
+
+The effects of an Ability always occur \emph{before} the rest of the Action is resolved but only if the Check is a success, otherwise Criticals cannot take effect.
+
+\hypertarget{adv}{%
+\subsection*{Advantage \& Disadvantage}\label{adv}}
+\addcontentsline{toc}{subsection}{Advantage \& Disadvantage}
+
+Maneuvers and situational factors in the game can result in \textbf{Advantage} or \textbf{Disadvantage} for the Model. If a model has Advantage, roll two Difficulty Dice for the relevant Skill Check and discard the highest result, then determine Successes. If a Model has Disadvantage, roll two Difficulty Dice and discard the lowest result.
+
+Advantage and Disadvantage cancel each other out at one to one, so if a Model has two instances of Advantage and one of Disadvantage, they end up with a single instance of Advantage.
+
+A Model cannot ``stack'' Advantages or Disadvantages. Whether a Model has one or three of either doesn't change that only two Difficulty Dice can ever be rolled.
+
+\hypertarget{scatter}{%
+\subsection*{Other Rolls}\label{scatter}}
+\addcontentsline{toc}{subsection}{Other Rolls}
+
+Sometimes the game requires that you roll a d5. To do so, roll a d10 and treat a 1-2 as 1, 3-4 as 2, and so on. One example of this use is the \textbf{Scatter Roll}.
+
+To make a Scatter Roll, roll a d5 to determine a random distance and direction. Treat the ``point'' on the die that is off the surface of the Play Area as indicating the direction of the scatter and the numerical value as the distance. Then, on the Play Area, measure the distance from the Model or token being scattered in the direction determined by the die, to find the new position for that Model or token.
+
+Additionally, you might also be asked to roll a d100 to determine a random result on some tables, such as for \textbf{Scars}. To do so, simply roll 2d10s and treat one of the dice as the \emph{tens} and the other as the \emph{ones} to obtain a result between 1 and 100.
+
+\hypertarget{actions-ticks-clocks}{%
+\section{Actions, Ticks, \& Clocks}\label{actions-ticks-clocks}}
+
+\hypertarget{ticks}{%
+\subsection*{The Cost of Action}\label{ticks}}
+\addcontentsline{toc}{subsection}{The Cost of Action}
+
+\textbf{Cazadores} are driven by boundless bravery and unshakeable resolve, while the \textbf{Adversary} and its \textbf{Minions} possess unnatural strength and fearsome power. Neither are limited by their stamina or endurance during the \textbf{Hunt}. Instead, all \textbf{Actions} take precious time, represented as \textbf{Ticks}.
+
+Moments of furious struggle are demarcated by Ticks on the \textbf{Round Clock}. A tracker with 10 Ticks that advances throughout the game. Each \textbf{Model} possesses a \textbf{Personal Clock} which tracks the next Tick on which they can act.
+
+During a Model's \textbf{Turn}, when it attempts an Action, the Model must first pay the Action's Ticks, advancing their Personal Clock by that amount. Once it has carried out its Actions, the Model will not be able to take another Turn until the Round Clock matches their Personal Clock again.
+
+\begin{quote}
+For example, a Model with a Personal Clock at Tick 1 makes a \textbf{Melee Attack}. First, it advances its Personal Clock by the Attack Action's Ticks (3), bringing its clock to Tick 4. Then, regardless of the outcome of the Attack, it cannot take another Turn until the Round Clock is at Tick 4.
+\end{quote}
+
+\hypertarget{ending-the-round}{%
+\subsection*{Ending the Round}\label{ending-the-round}}
+\addcontentsline{toc}{subsection}{Ending the Round}
+
+The Round Clock only advances once all eligible Models take a Turn during a Tick. Once it reaches Tick 10 and would advance, instead the \textbf{Round} ends. At this point all \textbf{Conditions} and other effects that take effect at the end of the Round are resolved and the Round Clock is reset to Tick 1.
+
+Unlike the Round Clock, Personal Clocks do not reset, instead they ``loop''. If a Model's Personal Clock is at Tick 9 and it takes an Action of 3 Ticks, then it's Personal Clock is first advanced to 10, then to 1, and finally settles at Tick 2.
+
+\begin{quote}
+Players can use the Personal Clocks at the bottom of the Model sheets with paper clips to track Ticks for each Model. Alternatively, write names on blank counters and slide them back and forth on the Round Clock to track Ticks for all Models in one place.
+\end{quote}
+
+\hypertarget{terrain}{%
+\section{Terrain Types}\label{terrain}}
+
+Before the game starts, the players should agree on what \textbf{Type} to assign to each piece of \textbf{Terrain} on the board. Each piece of Terrain might have multiple Types:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Open Terrain}: Flat areas of ground or pieces of Terrain with no effect.
+\item
+  \textbf{Difficult Terrain}: Rough and stoney ground, shallow water, slick ice. \textbf{Models} move at half speed (e.g., 1'' is treated as 2'').
+\item
+  \textbf{Dangerous Terrain}: Craggy rocks, vine-covered jungles, all count as Dangerous Terrain. All Dangerous Terrain is treated as Difficult Terrain. In addition, the first time a Model enters Dangerous Terrain it must pass an \textbf{Athletics Check} or take the \textbf{Knocked Down Condition}.
+\item
+  \textbf{Impassable Terrain:} High walls, chasms, or lava pits are included. A Model can never enter Impassable Terrain (though they might leap it!)
+\item
+  \textbf{Obscuring Terrain:} Fog, thick bush, etc., that provides \textbf{Cover} but does not block \textbf{LOS.}
+\item
+  \textbf{Blocking Terrain:} Opaque or solid materials that block \textbf{LOS}.
+\end{itemize}
+
+\begin{quote}
+\textbf{Adversaries} are immune to the effects of Difficult and Dangerous Terrain.
+\end{quote}
+
+\hypertarget{borders}{%
+\subsection*{Borders \& Exits}\label{borders}}
+\addcontentsline{toc}{subsection}{Borders \& Exits}
+
+Prior to the game, the players should decide which parts of the \textbf{Play Area's} edges (\textbf{Borders}) are considered \textbf{Exits}. Exits allow \textbf{Cazadores} and \textbf{Companions} to flee from the fight and be removed from the Play Area alive. The rest of the Borders are considered \textbf{Impassable Terrain} that cannot be overcome.
+
+Players should consider the location of the \textbf{Hunt} when determining which parts of Borders are Exits. For example, on an open field it's entirely possible that all Borders are Exits, whereas in a cave, there is likely only one way out.
+
+\hypertarget{cover}{%
+\subsection*{Cover}\label{cover}}
+\addcontentsline{toc}{subsection}{Cover}
+
+If any potential line for determining \textbf{LOS} passes through \textbf{Obscuring Terrain} or \textbf{Blocking Terrain}, the defender benefits from \textbf{Cover}. Cover grants \textbf{Disadvantage} to the \textbf{Model} making a \textbf{Melee} or \textbf{Shooting} \textbf{Attack}.
+
+\hypertarget{areas}{%
+\subsection*{Areas}\label{areas}}
+\addcontentsline{toc}{subsection}{Areas}
+
+\textbf{Areas} refer to circular templates that are placed on the \textbf{Play Area}. Each Area always has a number associated with it that indicates the diameter of the template (e.g., Area 3, indicates a 3'' template).
+
+\hypertarget{cazadores}{%
+\section{Cazadores \& Companions}\label{cazadores}}
+
+The players' \textbf{Models} are either \textbf{Cazadores}, the fearless and exceptional hunters who lead the \textbf{Pack} against insurmountable odds, or \textbf{Companions}, specialists, helpers, familiars, and reticent civilians who aid them on their travails.
+
+\hypertarget{attributes}{%
+\subsection*{Attributes}\label{attributes}}
+\addcontentsline{toc}{subsection}{Attributes}
+
+\textbf{Attributes} are a \textbf{Model's} raw capabilities and aptitudes. They represent strengths and weaknesses that are relevant during the \textbf{Hunt}.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Speed (SPD):} The Model's quickness during the Hunt, indicating how far they can move in inches in one \textbf{Action}.
+\item
+  \textbf{Prowess (PROW):} The Model's physical strength, agility, and fitness, affecting their \textbf{Athletics} and \textbf{Melee} Skills.
+\item
+  \textbf{Sharpness (SHRP):} The keenness of a Model's senses and dexterity, affecting their \textbf{Shooting} and \textbf{Stealth} Skills.
+\item
+  \textbf{Wits (WIT):} The Model's awareness, understanding, and intuition, affecting their \textbf{Hunt} and \textbf{Lore} Skills.
+\item
+  \textbf{Resolve (RES):} Stamina, bravery, and other intangibles that keep a Model in the fight, affecting their \textbf{Fortitude} and \textbf{Leadership} Skills.
+\end{itemize}
+
+\hypertarget{skills}{%
+\subsection*{Skills}\label{skills}}
+\addcontentsline{toc}{subsection}{Skills}
+
+\textbf{Skills} represent a \textbf{Model's} expertise derived from training or experience in a specific area of the \textbf{Hunt}. Skills are always a combination of aptitude and expertise so each is paired with an Attribute (e.g., Melee {[}PROW{]}).
+
+\begin{itemize}
+\item
+  Prowess (PROW) Skills\textbf{:}
+\item
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Athletics:} Honed physical endurance and coordination.
+  \item
+    \textbf{Melee:} Skill in close combat.
+  \end{itemize}
+\item
+  Sharpness (SHRP) Skills:
+\item
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Shooting :} Skill in ranged combat.
+  \item
+    \textbf{Stealth:} Expertise at hiding and ambushing.
+  \end{itemize}
+\item
+  Wits (WIT) Skills:
+\item
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Hunt:} Expertise in tracking and other aspects of the Hunt.
+  \item
+    \textbf{Lore:} Knowledge of \textbf{Foes}, \textbf{Rituals}, and other dark secrets.
+  \end{itemize}
+\item
+  Resolve (RES) Skills:
+\item
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Fortitude:} Grit and steadfastness.
+  \item
+    \textbf{Leadership:} Inspirational qualities and knowledge of tactics.
+  \end{itemize}
+\end{itemize}
+
+\begin{quote}
+When making \textbf{Checks}, Cazadores roll d10s equal to the sum of the paired \textbf{Skill} and \textbf{Attribute} \textbf{Ratings} but \textbf{Companions} and \textbf{Foes} rely only on their \textbf{Attributes}.
+\end{quote}
+
+\hypertarget{wounds}{%
+\subsection*{Wounds}\label{wounds}}
+\addcontentsline{toc}{subsection}{Wounds}
+
+A \textbf{Model's} capacity to endure agony and stay in the fight are measured in terms of their \textbf{Wounds (WNDs)}. Should a Model's Wounds be reduced to 0, that model is dead or irrevocably lost to the horrors of the \textbf{Hunt}.
+
+\hypertarget{defence}{%
+\subsection*{Defences \& Armour}\label{defence}}
+\addcontentsline{toc}{subsection}{Defences \& Armour}
+
+\textbf{Models} also have \textbf{Defence (DEF) Ratings} that indicate how well they are able to avoid or protect themselves from damage. In practice, these Ratings serve as the DT other Models must overcome when Attacking them. For the players' Models, these Ratings are calculated as follows:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Melee Defence (MDEF):} The sum of \textbf{PROW} and Armour.
+\item
+  \textbf{Shooting Defence (SDEF):} The sum of \textbf{SHRP} and Armour.
+\end{itemize}
+
+Most Models are also equipped with some degree of protection that is referred to as \textbf{Armor}. In general, the greater the protection provided by the Armor, the greater a hindrance it is to a Model, giving a penalty to their \textbf{SPD Rating}.
+
+\hypertarget{foes}{%
+\section{Foes}\label{foes}}
+
+The \textbf{Foes} opposing the \textbf{Cazadores} are defined with less detail but with all the \textbf{Attributes} required to be worthy opponents. Foes' \textbf{Actions} are determined using \textbf{Foe Type}, \textbf{Decision Trees}, and the \textbf{Adversary Deck}.
+
+\hypertarget{fattributes}{%
+\subsection*{Attributes}\label{fattributes}}
+\addcontentsline{toc}{subsection}{Attributes}
+
+All \textbf{Foes} are defined by a condensed list of \textbf{Attributes}:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Speed (SPD):} Quickness and how far it can move in one Action in inches.
+\item
+  \textbf{Attack (ATK):} Ferocity in close (\textbf{Melee)} and ranged (\textbf{Shooting}) combat.
+\item
+  \textbf{Range} \textbf{(RNG)}: Reach in close combat, often modified if the Model has access to \textbf{Shooting Attacks}.
+\item
+  \textbf{Terror (TER):} Unnatural power, used to terrify and clear \textbf{Conditions}.
+\item
+  \textbf{Defence (DEF):} Physical agility and strength, defining its capacity to defend itself against \textbf{Attacks}, traps, etc.
+\item
+  \textbf{Wounds (WND):} Physical health.
+\end{itemize}
+
+\hypertarget{ftypes}{%
+\subsection*{Foe Types}\label{ftypes}}
+\addcontentsline{toc}{subsection}{Foe Types}
+
+\textbf{Minions} are the minor \textbf{Foes} that aid the \textbf{Adversary} in attempting to crush the \textbf{Cazadores}. They follow a simple set of \textbf{Decision Trees} to execute \textbf{Actions} during their \textbf{Turns} that varies according to their \textbf{Foe Type}:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Aggressive (♠):} Models that seek to engage the Cazadores\textbf{,} heedless of the danger and odds. Usually focused on close combat.
+\item
+  \textbf{Defensive (♦):} Models that avoid close combat maintaining range or seeking strength in numbers. Usually focused on ranged combat.
+\item
+  \textbf{Sentry (♣):} Models that do not focus on engaging the Cazadores in combat and instead patrol Objectives or positions near the Adversary.
+\end{itemize}
+
+\hypertarget{fmove}{%
+\subsection*{Foe Move and Recover Actions}\label{fmove}}
+\addcontentsline{toc}{subsection}{Foe Move and Recover Actions}
+
+Like other Models, Foes also receive a free Move Action, therefore, the first Move Action is often free. However, Foes can take the \textbf{Recover Action} instead of the free Move Action, and will always do so to clear Conditions before resolving \textbf{Decision Trees}. Foes will also always move as far as possible as whenever they execute a Move Action.
+
+\hypertarget{aggro}{%
+\subsection*{Determining Aggro}\label{aggro}}
+\addcontentsline{toc}{subsection}{Determining Aggro}
+
+Whenever there are multiple possible Targets for a Foe's actions, the players determine \textbf{Aggro}, according to Foe Type, in order to select a final Target. Ties are broken randomly by rolling a d10.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Aggressive (♠) :} Hostile Model within 10'', LOS, and most WNDs remaining.
+\item
+  \textbf{Defensive (♦):} Hostile Model within 10'', LOS, and least WNDs remaining.
+\item
+  \textbf{Sentry (♣):} Closest Hostile Model within 10'' and LOS.
+\end{itemize}
+
+\hypertarget{dtrees}{%
+\subsection*{Decision Trees}\label{dtrees}}
+\addcontentsline{toc}{subsection}{Decision Trees}
+
+A Minion's Turn involves answering ``Yes or No'' questions, in order, according to their Decision Tree and executing the first ``Yes'' response.
+
+\begin{longtable}[]{@{}cc@{}}
+\toprule
+\begin{minipage}[b]{0.18\columnwidth}\centering
+\textbf{Foe Type}\strut
+\end{minipage} & \begin{minipage}[b]{0.76\columnwidth}\centering
+\textbf{Question Order}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.18\columnwidth}\centering
+Aggressive (♠)\strut
+\end{minipage} & \begin{minipage}[t]{0.76\columnwidth}\centering
+1) Close Combat; 2) Aggress; 3) Reposition; 4) Hold Ground\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\centering
+Defensive (♦)\strut
+\end{minipage} & \begin{minipage}[t]{0.76\columnwidth}\centering
+1) Retreat; 2) Reposition; 3) Aggress; 4) Hold Ground\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\centering
+Sentry (♣)\strut
+\end{minipage} & \begin{minipage}[t]{0.76\columnwidth}\centering
+1) Close Combat; 2) Ranged Combat; 3) Reposition; 4) Hold Ground\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{decision-tree-questions}{%
+\subsubsection*{Decision Tree Questions}\label{decision-tree-questions}}
+\addcontentsline{toc}{subsubsection}{Decision Tree Questions}
+
+\textbf{\emph{Aggress}}: Is the Foe within 10'' of a Hostile Model?\\
+\hspace*{0.333em} \textbf{Yes}: Foe takes Move Action toward Target, then resolves \textbf{Close Combat}, else \textbf{Ranged Combat}, else takes a second Move Action toward Target.
+
+\textbf{\emph{Close Combat}:} Is the Foe within LOS and Melee Attack range of a Hostile Model?\\
+\hspace*{0.333em} \textbf{Yes}: The Foe takes a Melee Attack Action against the Target.
+
+\textbf{\emph{Hold Ground}}: The Foe holds their position and takes the Pass Action.
+
+\textbf{\emph{Ranged Combat}:} Is the Foe within LOS and Shooting Attack range of a Hostile Model?\\
+\hspace*{0.333em} \textbf{Yes}: The Foe takes a Shooting Attack Action against the Target.
+
+\textbf{\emph{Reposition}}: Is the Foe more than 5'' away from Friendly Models or Objectives?\\
+\hspace*{0.333em} \textbf{Yes:} The Foe takes a Move Action toward whichever is closest in this order: 1) furthest Objective, 2) largest group of Minions, 3) the Adversary; then \textbf{Close Combat}, else \textbf{Ranged Combat}, else \textbf{Hold Ground}.
+
+\textbf{\emph{Retreat}}: Is the Foe within a Hostile Model's LOS and Melee Attack range?\\
+\hspace*{0.333em} \textbf{Yes}: The Foe takes a Move Action away from the Target and any other Hostile Models then resolves \textbf{Ranged Combat}, else \textbf{Hold Ground}.
+
+\hypertarget{else}{%
+\subsubsection*{Resolving ``Else'' in Decision Trees}\label{else}}
+\addcontentsline{toc}{subsubsection}{Resolving ``Else'' in Decision Trees}
+
+Some decisions require a Foe check other questions, as indicated by ``else''. This means that the Foe executes the next question in the order that is a ``Yes''. For example, after the first move in \textbf{\emph{Aggress}}, the Foe checks \textbf{\emph{Close Combat}}, then \textbf{\emph{Ranged Combat}}, with a second Move as the last choice to no other Yes responses.
+
+\hypertarget{adeck}{%
+\subsection*{The Adversary Deck}\label{adeck}}
+\addcontentsline{toc}{subsection}{The Adversary Deck}
+
+\textbf{Adversaries} are the major \textbf{Foes} of any \textbf{Hunt} and, in turn, they are much more unpredictable and dangerous. To simulate the greater complexity of these Foes, each Adversary uses the \textbf{Adversary Deck}, a standard 52-card deck of playing cards split and shuffled to form two separate piles, \textbf{Hit Locations} (the numbered 2-10 cards) and \textbf{Actions} (the Ace and face cards).
+
+Each \textbf{Adversary} has a detailed entry for their Adversary Deck that describes specific Hit Locations and Actions tailored to fit their nature and particular qualities, these can be found in \emph{The Adversary} book but you can find one in the \emph{Quickstart} chapter.
+
+\hypertarget{hit-locations}{%
+\subsubsection*{Hit Locations}\label{hit-locations}}
+\addcontentsline{toc}{subsubsection}{Hit Locations}
+
+All Adversaries have their total number of Wounds (WNDs) spread out across various Hit Locations. Whenever the players' Models successfully attack the Adversary, they flip a number of Hit Location cards equal to WNDs dealt, and the WNDs are removed from that specific Hit Location.  
+
+When a specific Hit Location's Wounds have been exhausted (i.e., are reduced to 0), there is usually an ongoing effect that comes into play. These effects are described in the Adversary's entry. In addition, all future WNDs dealt to that Hit Location are treated as WNDs to the next highest Hit Location.
+
+\begin{quote}
+An Adversary's Upper Limbs take 3 WNDs with 1 left. The last WND is removed and the remaining 2 WNDs are dealt to its next highest Hit Location, in this case, the Torso.
+\end{quote}
+
+\hypertarget{adversary-actions}{%
+\subsubsection*{Adversary Actions}\label{adversary-actions}}
+\addcontentsline{toc}{subsubsection}{Adversary Actions}
+
+During the \textbf{Adversary's Turn}, the players flip over and reveal one card from the Adversary's pile of Actions. The specific card revealed is interpreted in terms of its suit and value to determine the Adversary's Actions for its Turn.
+
+The suit determines which \textbf{Foe Type} the Adversary will use this Turn:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Spades (♠):} Aggressive Foe Type
+\item
+  \textbf{Diamonds (♦) :} Defensive Foe Type
+\item
+  \textbf{Clubs (♣):} Sentry Foe Type
+\item
+  \textbf{Hearts (♥):} Special Foe Type
+\end{itemize}
+
+The \textbf{Special} Foe Type is only applicable to Adversaries and refers to a mixed set of \textbf{Foe Types} that the Adversary will follow as detailed in their entry. For example, a Jack of Hearts might refer to the \textbf{Defensive Decision Tree} whereas the Queen of Hearts might refer to the \textbf{Aggressive Decision Tree}.
+
+The value on the card determines the specific Action that the Adversary will take. Usually this is a form of Attack and includes additional specialized modifiers tailored to the Adversary.
+
+\begin{quote}
+\emph{An example Adversary Action} 
+
+\textbf{Ace (Sweeping Smash)}: +2 ATK +1 RNG. All Hostile Models within RNG suffer a Melee Attack. Models hit are pushed 2'' away.
+\end{quote}
+
+\hypertarget{exhausting-the-adversary-deck}{%
+\subsubsection*{Exhausting the Adversary Deck}\label{exhausting-the-adversary-deck}}
+\addcontentsline{toc}{subsubsection}{Exhausting the Adversary Deck}
+
+When the Hit Location or Action piles for the Adversary are exhausted, the players should simply take the discard piles, and without shuffling, turn them over to create new Hit Location and Action piles.
+
+\begin{quote}
+This allows the players to predict the Adversary's Actions to some degree.
+\end{quote}
+
+\hypertarget{playing}{%
+\chapter{Playing The Game}\label{playing}}
+
+\hypertarget{setup}{%
+\section{Game Setup}\label{setup}}
+
+\hypertarget{choose-an-adversary}{%
+\subsection*{1. Choose an Adversary}\label{choose-an-adversary}}
+\addcontentsline{toc}{subsection}{1. Choose an Adversary}
+
+Each game encompasses a \textbf{Hunt} for a dangerous and terrifying \textbf{Foe}, the \textbf{\protect\hyperlink{foes}{Adversary}}, so the first step of setting up for a game is for the players to select an Adversary as the target of the Hunt.
+
+Players can choose from the Adversaries in \emph{The Adversary} or develop one of their own based on the guidelines provided there. In campaign play, the Adversary for a Hunt might be determined by events in a previous game or the evolving story between play sessions. Take the time to prepare the \textbf{Model} for it and any \textbf{\protect\hyperlink{ftypes}{Minions}} to the best of your ability. While the \textbf{\protect\hyperlink{cazadores}{Cazadores}} are the protagonists, the Adversary is the centrepiece and they should serve as a ferocious and intimidating enemy.
+
+\begin{quote}
+The entries for the Adversaries provide broad descriptions of these terrors but they are meant to be a source of inspiration, \emph{not} strict representations. Use any Model you see fit to represent the Adversary and any other Model in the game. Interpreting the entries in your own way is a part of the fun!
+\end{quote}
+
+\hypertarget{gather-the-pack}{%
+\subsection*{2. Gather The Pack}\label{gather-the-pack}}
+\addcontentsline{toc}{subsection}{2. Gather The Pack}
+
+A \textbf{Pack} is always composed of 2-4 Models with one Cazador per player. The rest of the Models in a Pack are composed of Companions. See the table for \emph{Player Models in Game} to determine how many Companions each player is allowed during the Hunt.
+
+\emph{Player Models in A Hunt}
+
+\begin{longtable}[]{@{}ccc@{}}
+\toprule
+Players & Cazadores & Companions\tabularnewline
+\midrule
+\endhead
+1 & 1 & 1-3\tabularnewline
+2 & 1 per player & 1 per player\tabularnewline
+3 & 1 per player & None\tabularnewline
+4 & 1 per player & None\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{arrange}{%
+\subsection{3. Arrange The Play Area \{-\}}\label{arrange}}
+
+Set up a Play Area that is approximately 24'' x 24'' and place appropriate \textbf{\protect\hyperlink{terrain}{Terrain}} for the encounter with the Adversary. If you are using the \emph{Scouting \& Preparation} phase as described in the \emph{Narrative Rules} chapter, it might provide some guidance as to what Terrain is appropriate.
+
+Have the Cazadores tracked the Adversary to its lair? Has the Adversary attacked the city and is currently rampaging through its streets? Any of these scenarios is feasible and ripe for ideas to use in designing the Play Area.
+
+Once all the Terrain has been placed, the players should take the time to discuss which pieces of Terrain are considered to be of each \textbf{Terrain} \textbf{Type}, and which sections of the \textbf{\protect\hyperlink{borders}{Borders}} are considered \textbf{\protect\hyperlink{borders}{Exits}}, to reduce confusion during play.
+
+\hypertarget{objsetup}{%
+\subsection*{4. Set Up Objectives}\label{objsetup}}
+\addcontentsline{toc}{subsection}{4. Set Up Objectives}
+
+\emph{Cazadores} is most rewarding as a game when the players are also attempting to achieve additional \textbf{Objectives} beyond defeating the Adversary. For your first game, you might play without Objective but henceforth we recommend you use the \emph{Objectives} rules in \emph{Narrative Rules}. 
+
+If you're playing with Objectives, at this stage you should follow special setup rules outlined there. Note that these might impact other parts of \emph{Game Setup}.
+
+\hypertarget{deploy}{%
+\subsection*{5. Deploy Models}\label{deploy}}
+\addcontentsline{toc}{subsection}{5. Deploy Models}
+
+\hypertarget{deploying-foes}{%
+\subsubsection*{Deploying Foes}\label{deploying-foes}}
+\addcontentsline{toc}{subsubsection}{Deploying Foes}
+
+To deploy \textbf{Foes}, make a \textbf{\protect\hyperlink{scatter}{Scatter Roll}} from the centre of the \textbf{Play Area} and place the \textbf{Adversary} at that position. For the \textbf{Minions}, make a Scatter Roll from the position of the Adversary to place each at their final positions. When deploying Minions, do your best to place them at least 3'' away from all other Minions.
+
+You can apply these guidelines with an eye for narrative. To do this, try to place \textbf{Aggressive Minions} so that they form front lines, \textbf{Defensive Minions} behind them, and \textbf{Sentry Minions} orbiting the Objective or the Adversary.
+
+\hypertarget{deploying-the-pack}{%
+\subsubsection*{Deploying The Pack}\label{deploying-the-pack}}
+\addcontentsline{toc}{subsubsection}{Deploying The Pack}
+
+The players then take turns deploying their Cazadores and \textbf{Companions.} Each of these \textbf{Models} must be deployed within 3'' of one of the \textbf{Exits} on the Play Area unless the Objective or narrative requires otherwise.
+
+\hypertarget{mark-the-clocks}{%
+\subsection*{6. Mark The Clocks}\label{mark-the-clocks}}
+\addcontentsline{toc}{subsection}{6. Mark The Clocks}
+
+Mark the \textbf{Round} \textbf{Clock} to \textbf{Tick 1} and do the same for the Models' \textbf{\protect\hyperlink{ticks}{Personal Clocks}}. It's possible that Scouting or Preparation might impact it so that some Models start at later Ticks, adjust accordingly.
+
+\hypertarget{embark-on-the-hunt}{%
+\subsection*{7. Embark On The Hunt}\label{embark-on-the-hunt}}
+\addcontentsline{toc}{subsection}{7. Embark On The Hunt}
+
+After the previous steps are completed, the Hunt begins and the game is played over a series of \textbf{Rounds} divided into \textbf{Ticks}. On each Tick all eligible Models take Turns to act before advancing the Round Clock to the next Tick.
+
+\begin{quote}
+Models are considered ``eligible'' to take a Turn when their Personal Clocks match the Round Clock. That is, both Clocks are on the same Tick
+\end{quote}
+
+\hypertarget{structure}{%
+\section{Game Structure}\label{structure}}
+
+Each game takes place over a series of Rounds, where each Round is made up of 10 Ticks. Ticks are loose units of time that dictate when Models can act and take a Turn
+
+\hypertarget{rounds}{%
+\subsection*{Executing Rounds}\label{rounds}}
+\addcontentsline{toc}{subsection}{Executing Rounds}
+
+\hypertarget{determine-eligible-models}{%
+\subsubsection*{1. Determine Eligible Models}\label{determine-eligible-models}}
+\addcontentsline{toc}{subsubsection}{1. Determine Eligible Models}
+
+At the beginning of each Round, compare the Tick on the Round Clock to all Models' Personal Clocks.  Any Models whose Personal Clocks match the Round Clock are eligible and can take a Turn on this Tick.
+
+\hypertarget{break-clock-ties}{%
+\subsubsection*{2. Break Clock Ties}\label{break-clock-ties}}
+\addcontentsline{toc}{subsubsection}{2. Break Clock Ties}
+
+If multiple Models are eligible to act on this Tick, then you must Break Clock Ties.  To do so, the Cazador with the greatest \textbf{Resolve Rating} that is eligible on this Tick makes a \textbf{Leadership Check} with a DT equal to the highest \textbf{Terror Rating} of all Foes eligible on this Tick.  
+
+If the Check is successful, that Cazador's player elects whether the Pack or the Foes resolve their Turns first. On a failure, or if no Cazador is eligible on this Tick, then Foes execute their Turns first.  
+
+\begin{quote}
+When the players' Models are the only eligible Models , the players choose the order in which Turns are carried out.  When only the Foes are eligible on a Tick, the Adversary acts first, then the remaining Minions activate in a random order.
+\end{quote}
+
+\hypertarget{carry-out-turns}{%
+\subsubsection*{3. Carry Out Turns}\label{carry-out-turns}}
+\addcontentsline{toc}{subsubsection}{3. Carry Out Turns}
+
+Each eligible Model resolves their Turn completely before the next eligible Model resolves their Turn. See \emph{Executing Turns}.
+
+\hypertarget{advance-round-clock}{%
+\subsubsection*{4. Advance Round Clock}\label{advance-round-clock}}
+\addcontentsline{toc}{subsubsection}{4. Advance Round Clock}
+
+Once all eligible Models have carried out their Turns, advance the Round Clock forward by 1 Tick, then return to step 1 in \emph{Executing Rounds}. However, if the Round Clock would advance beyond Tick 10, instead proceed to \emph{Ending the Round}.
+
+\hypertarget{ending-the-round-1}{%
+\subsubsection*{5. Ending The Round}\label{ending-the-round-1}}
+\addcontentsline{toc}{subsubsection}{5. Ending The Round}
+
+If the Round Clock would advance beyond Tick 10, instead it is reset to Tick 1 and the Round ends. When the Round ends, check for and resolve any effects that take place at the end of the Round. \textbf{Conditions} and Objectives are the most common sources of effects that are resolved at the end of the Round. 
+After resolving the end of the Round, check whether the Hunt ends according to \emph{Ending the Hunt}.
+
+\hypertarget{ending-the-hunt}{%
+\subsubsection*{6. Ending The Hunt}\label{ending-the-hunt}}
+\addcontentsline{toc}{subsubsection}{6. Ending The Hunt}
+
+The game is over at the end of the Round when one of the following is true:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Slaughter:} Either all Pack Models or all Foes are unable to continue because their WNDs have been exhausted. 
+\item
+  \textbf{The Pack Flees:} If all remaining Pack Models have fled the Play Area.
+\item
+  \textbf{Objectives:} A special condition dictated by an Objective that ends the Hunt is fulfilled.
+\end{itemize}
+
+\begin{quote}
+During campaigns, the outcome of the Hunt grants \textbf{Renown} based on the degree of success (or failure). To determine the Renown gained (or lost), see \emph{Narrative Rules}.
+\end{quote}
+
+\hypertarget{turns}{%
+\subsection*{Executive Turns}\label{turns}}
+\addcontentsline{toc}{subsection}{Executive Turns}
+
+\hypertarget{declare-first-action}{%
+\subsubsection*{1. Declare First Action}\label{declare-first-action}}
+\addcontentsline{toc}{subsubsection}{1. Declare First Action}
+
+All Models can take one free Move Action and one more Action on their Turn in any order they choose. The Model declares their First Action advancing their Personal Clock by that Action's Tick Cost unless it is their free Move Action for the Turn.
+
+\begin{quote}
+For Foes, when resolving a Decision Tree that would require the Foe to move, they always use their free Move Action first, reserving their second Action for their Attack, unless that Action must also be ultimately spent for movement.
+\end{quote}
+
+\hypertarget{execute-first-action}{%
+\subsubsection*{2. Execute First Action}\label{execute-first-action}}
+\addcontentsline{toc}{subsubsection}{2. Execute First Action}
+
+After paying the Tick Cost for their First Action, the Model attempts any Checks required for their Action and any results from success or failure take effect.  The first Action must be resolved completely before the second Action is declared.
+
+\hypertarget{declare-second-action}{%
+\subsubsection*{3. Declare Second Action}\label{declare-second-action}}
+\addcontentsline{toc}{subsubsection}{3. Declare Second Action}
+
+The Model declares their second Action and advances their Personal Clock by its Tick Cost.
+
+\hypertarget{execute-second-action}{%
+\subsubsection*{4. Execute Second Action}\label{execute-second-action}}
+\addcontentsline{toc}{subsubsection}{4. Execute Second Action}
+
+The Model attempts any Checks required for their second Action and results of success or failure take place. The Model then proceeds to \emph{Ending the Turn}.
+
+\hypertarget{ending-the-turn}{%
+\subsubsection*{5. Ending The Turn}\label{ending-the-turn}}
+\addcontentsline{toc}{subsubsection}{5. Ending The Turn}
+
+After executing their second Action, the Model ends their Turn and any effects that occur at the end of that Model's Turn are resolved.
+
+\hypertarget{clarifications}{%
+\subsection*{Clarifications}\label{clarifications}}
+\addcontentsline{toc}{subsection}{Clarifications}
+
+\hypertarget{action-types}{%
+\subsubsection*{Action Types}\label{action-types}}
+\addcontentsline{toc}{subsubsection}{Action Types}
+
+The different Actions available to each Model are categorized under three Types: \textbf{Movement Actions}, \textbf{Combat Actions}, and \textbf{Special Actions}.
+
+ Throughout the game, these Types are used to refer to all Actions under each Type. For example, conditions or other effects might place a Model at \textbf{Disadvantage} to perform all actions of a specific Type.
+
+\hypertarget{free-move-action}{%
+\subsubsection*{Free Move Action}\label{free-move-action}}
+\addcontentsline{toc}{subsubsection}{Free Move Action}
+
+During its Turn, every Model receives a free Move Action, such that they can execute it without paying for its Tick Cost. If a Model chooses not to use its Move Action, treat it as if it executed a Move Action choosing to move 0''. 
+Foes can exchange their free Move Action for the Recover Action but the players' Models cannot. See \emph{Foe Move and Recover Actions}.
+
+\hypertarget{cost-of-the-pass-actions}{%
+\subsubsection*{Cost of The Pass Actions}\label{cost-of-the-pass-actions}}
+\addcontentsline{toc}{subsubsection}{Cost of The Pass Actions}
+
+If a Model foregoes taking an Action during their Turn, they are treated as executing the \textbf{Pass Action} and advance their Personal Clock by 1 Tick. Note that choosing not to use the free Move Action does not count as taking a Pass Action. Instead, it is treated as taking the free Move Action but choosing to move 0''.
+
+\hypertarget{actions}{%
+\section{Actions}\label{actions}}
+
+\hypertarget{movement-actions}{%
+\subsection{Movement Actions}\label{movement-actions}}
+
+\hypertarget{cover-ground-3-ticks}{%
+\subsubsection*{Cover Ground (3 Ticks)}\label{cover-ground-3-ticks}}
+\addcontentsline{toc}{subsubsection}{Cover Ground (3 Ticks)}
+
+The Model attempting the Action makes an Athletics Check. If successful, the Model can move up to its Speed (SPD) plus 1'' for each Success rolled. On a failure, the Model cannot move.
+
+\begin{quote}
+Remember that Models pay an Action's Tick cost prior to attempting the relevant Check and regardless of its outcome.
+\end{quote}
+
+\hypertarget{move-2-tickes}{%
+\subsubsection*{Move (2 Tickes)}\label{move-2-tickes}}
+\addcontentsline{toc}{subsubsection}{Move (2 Tickes)}
+
+The Model taking this Action can move up to its Speed.
+
+\hypertarget{situational-movement}{%
+\subsection{Situational Movement}\label{situational-movement}}
+
+\hypertarget{jumping-and-leaving}{%
+\subsubsection*{Jumping and Leaving}\label{jumping-and-leaving}}
+\addcontentsline{toc}{subsubsection}{Jumping and Leaving}
+
+Models can ``leap'' over any Terrain less than or equal to 1'' tall as if it was 0'' tall.  Models can also ``jump'' over any chasms or the like if their movement will allow them to ``land'' on the other side.
+
+\hypertarget{climbing-and-falling}{%
+\subsubsection*{Climbing and Falling}\label{climbing-and-falling}}
+\addcontentsline{toc}{subsubsection}{Climbing and Falling}
+
+For Terrain that is over 1'' tall, Models can ``climb'' by spending movement to move vertically up Terrain. When climbing, a Model must end its Turn on a part of the Terrain that allows them to hold the position until their next Turn. This might vary across Hunts. A cliff face might be treated differently during a storm than clear weather.  
+
+A Model struck by an Attack, or that ends their Turn on unstable Terrain might suffer damage. To do so, make a \textbf{Melee Attack} against them treating the fall in inches as the Attack's \textbf{Rating}.
+
+\hypertarget{combat-actions}{%
+\subsection{Combat Actions}\label{combat-actions}}
+
+\hypertarget{attack-3-ticks}{%
+\subsubsection*{Attack (3 Ticks)}\label{attack-3-ticks}}
+\addcontentsline{toc}{subsubsection}{Attack (3 Ticks)}
+
+The Model attempting the Action makes a \textbf{Melee} or \textbf{Shooting Check} with \textbf{Difficulty Threshold (DT)} equal to their Target's relevant \textbf{Defence}. The Skill and relevant Defence used for the Check is determined by the Weapon.  
+
+Additionally, the Weapon used in the Action must be \textbf{Readied} and the Target must be within the Weapon's \textbf{Range} and within \textbf{Line of Sight (LOS)}. If successful, the Model deals \textbf{Wounds (WNDs)} equal to the Successes rolled plus the Weapon's \textbf{Power} \textbf{(POW)}.   
+
+\hypertarget{cast-ritual-4-ticks}{%
+\subsubsection*{Cast Ritual (4 Ticks)}\label{cast-ritual-4-ticks}}
+\addcontentsline{toc}{subsubsection}{Cast Ritual (4 Ticks)}
+
+The Model attempting the Action makes a \textbf{Lore Check} with DT 7. Other requirements as outlined within the Ritual's description must be fulfilled to make the attempt. For example, the Target must be within the Ritual's Range. If successful, the effects of the Ritual are applied.
+
+\hypertarget{defend-2-ticks}{%
+\subsubsection*{Defend (2 Ticks)}\label{defend-2-ticks}}
+\addcontentsline{toc}{subsubsection}{Defend (2 Ticks)}
+
+The Model enters a defensive stance. All Models make Attack Actions at \textbf{Disadvantage} against this Model until the start of its next Turn.
+
+\hypertarget{focus-2-ticks}{%
+\subsubsection*{Focus (2 Ticks)}\label{focus-2-ticks}}
+\addcontentsline{toc}{subsubsection}{Focus (2 Ticks)}
+
+The Model prepares for their next Attack. This Model can choose to gain \textbf{Advantage} to its next Attack Action or add or subtract up to 2 from the Hit Location of all WNDs dealt by their next Attack.  
+
+With the exception of free Move Actions, The Advantage gained by this Action expires if the next Action taken by this Model is not an Attack.
+
+\hypertarget{hide-3-ticks}{%
+\subsubsection*{Hide (3 Ticks)}\label{hide-3-ticks}}
+\addcontentsline{toc}{subsubsection}{Hide (3 Ticks)}
+
+To attempt this Action, the Model must be within 1'' of \textbf{Obscuring} or \textbf{Blocking Terrain}. The Model attempting the Action makes a \textbf{Stealth Check} using the highest \textbf{Attack (ATK) Rating} of all Hostile Models within 3''. If successful, the Model gains the \textbf{Hidden Condition}.
+
+\hypertarget{parry-4-ticks}{%
+\subsubsection*{Parry (4 Ticks)}\label{parry-4-ticks}}
+\addcontentsline{toc}{subsubsection}{Parry (4 Ticks)}
+
+The Model selects a single Target and makes Melee Check with a DT equal to the Target's ATK. If successful, the next successful Melee Attack by the Target on this Model is cancelled and this Model immediately makes an Attack with Advantage against the Target. The Advantage gained by this Action expires at the start of this Model's next Turn.
+
+\hypertarget{reload-1-tick}{%
+\subsubsection*{Reload (1 Tick)}\label{reload-1-tick}}
+\addcontentsline{toc}{subsubsection}{Reload (1 Tick)}
+
+The Model reloads 1 Ammo into a Shooting Weapon.
+
+\hypertarget{spot-weakness-4-ticks}{%
+\subsubsection*{Spot Weakness (4 Ticks)}\label{spot-weakness-4-ticks}}
+\addcontentsline{toc}{subsubsection}{Spot Weakness (4 Ticks)}
+
+To attempt this Action, the Model selects a single Target within 5''. The Model attempting the Action makes a \textbf{Hunt Check} with DT equal to the Target's Defence Rating.  If successful, this Model and Friendly Models gain Advantage on Attacks against the Target for the rest of the Round.
+
+\hypertarget{switch-1-tick}{%
+\subsubsection*{Switch (1 Tick)}\label{switch-1-tick}}
+\addcontentsline{toc}{subsubsection}{Switch (1 Tick)}
+
+The Model switches which Weapons or Gear are considered Readied, following any relevant restrictions. See \emph{Readied Weapons in Detail} in the \emph{Combat} chapter.
+
+\hypertarget{special-actions}{%
+\subsection{Special Actions}\label{special-actions}}
+
+\hypertarget{aid-2-ticks}{%
+\subsubsection*{Aid (2 Ticks)}\label{aid-2-ticks}}
+\addcontentsline{toc}{subsubsection}{Aid (2 Ticks)}
+
+The Model attempting the Action makes a \textbf{Leadership Check} with DT 5. If successful, a Friendly Model within 3'' immediately succeeds at a \textbf{Recover Action}.
+
+\hypertarget{flee-3-ticks}{%
+\subsubsection*{Flee (3 Ticks)}\label{flee-3-ticks}}
+\addcontentsline{toc}{subsubsection}{Flee (3 Ticks)}
+
+If the Model is within 1'' of an \textbf{Exit}, the Model attempting the Action makes an \textbf{Athletics Check} with DT 7. If successful, the Model leaves the Play Area, escaping the Hunt with their life.
+
+\hypertarget{pass-2-ticks}{%
+\subsubsection*{Pass (2 Ticks)}\label{pass-2-ticks}}
+\addcontentsline{toc}{subsubsection}{Pass (2 Ticks)}
+
+The Model is idle, biding their time.
+
+\hypertarget{recover-2-ticks}{%
+\subsubsection*{Recover (2 Ticks)}\label{recover-2-ticks}}
+\addcontentsline{toc}{subsubsection}{Recover (2 Ticks)}
+
+The Model attempting the Action makes a \textbf{Fortitude Check} with DT 5. If successful, the Model clears one \textbf{Condition} of their choice.  
+Foes use their \textbf{Terror Rating} instead of Fortitude to make the Check. If a Foe is affected by multiple Conditions, randomly determine which Condition is cleared by rolling a die.
+
+\hypertarget{use-gear-3-ticks}{%
+\subsubsection*{Use Gear (3 Ticks)}\label{use-gear-3-ticks}}
+\addcontentsline{toc}{subsubsection}{Use Gear (3 Ticks)}
+
+Model attempts to use a piece of Gear, so long as they meet other requirements for its usage. For example, a Gear that indicates ``Must Ready'' must be considered Readied prior to attempting this Action.  The Skill and DT used in the Check is determined by the Gear's description.   If successful, apply the effects of the Gear and, for Gear with limited \textbf{Ammo}, reduce Ammo by 1. On a failure, the effects do not occur but Ammo is still reduced by 1.
+
+\hypertarget{actsum}{%
+\subsection*{Actions Summary}\label{actsum}}
+\addcontentsline{toc}{subsection}{Actions Summary}
+
+\begin{longtable}[]{@{}ccc@{}}
+\toprule
+\begin{minipage}[b]{0.23\columnwidth}\centering
+Name\strut
+\end{minipage} & \begin{minipage}[b]{0.05\columnwidth}\centering
+Ticks\strut
+\end{minipage} & \begin{minipage}[b]{0.63\columnwidth}\centering
+Effect\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.23\columnwidth}\centering
+\textbf{\emph{Movement Actions}}\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Cover Ground\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+3\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Athletics Check. If successful, move up to SPD + 1'' per Success.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Move\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+2\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Model moves up to its SPD.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+\textbf{\emph{Combat Actions}}\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Attack\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+3\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Melee or Shooting Check (DT Target DEF) with a Readied Weapon. Success deals Wounds equal to Successes plus Weapon POW.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Cast Ritual\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+4\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Lore Check (DT 7). If successful, apply the selected Ritual's effects.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Defend\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+2\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Models Attack this Model at Disadvantage until this Model's next Turn.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Focus\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+2\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Model gains Advantage to next Attack or add/subtract up to 2 from Hit Location of next Attack.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Hide\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+3\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Model must be within 1'' of Obscuring or Blocking Terrain. Stealth Check (DT highest Hostile Model ATK within 3''). If successful, gain the Hidden Condition.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Parry\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+4\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Melee Check (DT Target ATK). Next successful Melee Attack by Target on this Model is cancelled and Model Attacks Target with Advantage.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Reload\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+1\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Model reloads 1 Ammo into a Shooting Weapon.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Spot Weakness\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+4\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Hunt Check (DT Target DEF within 5''). This Model and Friendly Models gain Advantage on Attacks against Target for rest of Round.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Switch\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+1\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Model switches which Weapons or Gear are considered Readied.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+\textbf{\emph{Other Actions}}\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Aid\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+2\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Leadership Check (DT 5). 1 Model within 3'' succeeds at a Recover Action.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Flee\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+3\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Athletics Check (DT 7; within 1'' of Exit). Model leaves the Play Area.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Pass\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+1\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+The Model is idle.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Recover\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+2\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Fortitude Check (DT 5). Model clears one Condition. Foes use Terror instead of Fortitude to make Check.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.23\columnwidth}\centering
+Use Gear\strut
+\end{minipage} & \begin{minipage}[t]{0.05\columnwidth}\centering
+3\strut
+\end{minipage} & \begin{minipage}[t]{0.63\columnwidth}\centering
+Model makes use of Gear and applies effects on Success. Skill used in the Check is determined by Gear\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}
