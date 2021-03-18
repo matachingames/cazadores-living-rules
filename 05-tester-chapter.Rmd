@@ -1,3 +1,7 @@
-# # Tester chapter
+# Tester chapter
 
 Testing git commits to the website
+
+## Now testing headings with this new chapter
+
+The above seems to look fine
