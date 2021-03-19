@@ -1,32 +1,46 @@
---- 
+---
 title: "Cazadores-Living-Rules"
 author: "Jose 'Jae' Espinoza. Matachin Games."
 date: "`r Sys.Date()`"
 description: "Cazadores, a cooperative miniatures game of daring hunts."
 url: 'https\://matachin.games/cazadores'
 #cover-image: "images/cover.png"
+
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
+
 link-citations: yes
 ---
 
-# Welcome
+# Welcome {-}
 
-This is the living rules document for Cazadores, a cooperative miniatures game of daring hunts.
+This is the living rules document for *Cazadores*, a cooperative miniatures game of daring hunts.
 
-**Explain that people can download from this website**
+Written by Jose 'Jae' Espinoza. A product of Matachin Games.
 
-## Contact & Other Info
+Get Model sheets, play aids, counters, and support the game at [Cazadores on Itch.io](https://matachingames.itch.io/cazadores)
 
-Get Model sheets, play aids, counters, and versions of the game with nice layout and extra goodies at [Cazadores on Itch.io](https://matachingames.itch.io/cazadores)
+Follow development on the blog at [Matachin Games](https://matachin.games).
 
-Follow development at [matachin.games](https://matachin.games)
+Any feedback is welcome to me (Jae) at [matachingames@pm.me](mailto:matachingames@pm.me)
 
-Email me (Jae) at [matachingames@pm.me](mailto:matachingames@pm.me)
+## Copyright and Redistribution {-}
 
-## Copyright & Licensing
+This work is licensed under the Creative Commons Attribution 4.0 License: 
+
+https://creativecommons.org/licenses/by/4.0/
+
+Anyone may also publish free or commercial material that declares compatibility with “Cazadores” without express written permission from Matachin Games, but must declare that the work is not affiliated with Matachin Games in the published material and on any websites from which the product is distributed or sold.
+
+## Inspiration {-}
+
+This game is built upon the innovations, thrills, and genius of a host of other games and pieces of media. To the best of the author’s abilities, connections between this game and these various works are drawn in *Appendix N*. 
+
+Please seek out and explore these other works.      
+
+I hope you enjoy them as much as I do.    
 
 
 ```{r include=FALSE}

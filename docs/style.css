@@ -12,3 +12,27 @@ pre {
 pre code {
   white-space: inherit;
 }
+
+div.rnote{
+  margin-bottom: 12px;
+  padding: 12px;
+  color: #fff;
+  background-color: #9e2a39;
+  border-left: .3rem solid #bebebe
+}
+
+div.bnote{
+  margin-bottom: 12px;
+  padding: 12px;
+  color: #fff;
+  background-color: #0b8eca;
+  border-left: .3rem solid #bebebe
+}
+
+div.pnote{
+  margin-bottom: 12px;
+  padding: 12px;
+  color: #fff;
+  background-color: #9370db;
+  border-left: .3rem solid #bebebe
+}

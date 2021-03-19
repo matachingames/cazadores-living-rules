@@ -1,7 +1,8 @@
-# Tester chapter
+# Combat {#combat}
 
 Testing git commits to the website
 
 ## Now testing headings with this new chapter
 
 The above seems to look fine
+

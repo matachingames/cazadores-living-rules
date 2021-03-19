@@ -8,15 +8,15 @@ Each game encompasses a **Hunt** for a dangerous and terrifying **Foe**, the **[
 
 Players can choose from the Adversaries in *The Adversary* or develop one of their own based on the guidelines provided there. In campaign play, the Adversary for a Hunt might be determined by events in a previous game or the evolving story between play sessions. Take the time to prepare the **Model** for it and any **[Minions](#ftypes)** to the best of your ability. While the **[Cazadores](#cazadores)** are the protagonists, the Adversary is the centrepiece and they should serve as a ferocious and intimidating enemy.
 
-<br/>
-
-> The entries for the Adversaries provide broad descriptions of these terrors but they are meant to be a source of inspiration, *not* strict representations. Use any Model you see fit to represent the Adversary and any other Model in the game. Interpreting the entries in your own way is a part of the fun!
+```{block, type = 'rnote'}
+The entries for the Adversaries provide broad descriptions of these terrors but they are meant to be a source of inspiration, *not* strict representations. Use any Model you see fit to represent the Adversary and any other Model in the game. Interpreting the entries in your own way is a part of the fun!
+```
 
 ### 2. Gather The Pack {-}
 
 A **Pack** is always composed of 2-4 Models with one Cazador per player. The rest of the Models in a Pack are composed of Companions. See the table for *Player Models in Game* to determine how many Companions each player is allowed during the Hunt.
 
-*Player Models in A Hunt*
+Table: (#tab:modelcount) Player Models in A Hunt
 
 | Players |  Cazadores   |  Companions  |
 | :-----: | :----------: | :----------: |
@@ -59,9 +59,9 @@ Mark the **Round** **Clock** to **Tick 1** and do the same for the Models’ **[
 
 After the previous steps are completed, the Hunt begins and the game is played over a series of **Rounds** divided into **Ticks**. On each Tick all eligible Models take Turns to act before advancing the Round Clock to the next Tick.
 
-<br/>
-
-> Models are considered “eligible” to take a Turn when their Personal Clocks match the Round Clock. That is, both Clocks are on the same Tick
+```{block, type = 'rnote'}
+Models are considered “eligible” to take a Turn when their Personal Clocks match the Round Clock. That is, both Clocks are on the same Tick.
+```
 
 ## Game Structure {#structure}
 
@@ -79,9 +79,9 @@ If multiple Models are eligible to act on this Tick, then you must Break Clock T
 
 If the Check is successful, that Cazador’s player elects whether the Pack or the Foes resolve their Turns first. On a failure, or if no Cazador is eligible on this Tick, then Foes execute their Turns first.  
 
-<br/>
-
-> When the players’ Models are the only eligible Models , the players choose the order in which Turns are carried out.  When only the Foes are eligible on a Tick, the Adversary acts first, then the remaining Minions activate in a random order.
+```{block, type = 'rnote'}
+When the players’ Models are the only eligible Models , the players choose the order in which Turns are carried out. When only the Foes are eligible on a Tick, the Adversary acts first, then the remaining Minions activate in a random order.
+```
 
 #### 3. Carry Out Turns {-}
 
@@ -104,9 +104,9 @@ The game is over at the end of the Round when one of the following is true:
 - **The Pack Flees:** If all remaining Pack Models have fled the Play Area.
 - **Objectives:** A special condition dictated by an Objective that ends the Hunt is fulfilled.
 
-<br/>
-
-> During campaigns, the outcome of the Hunt grants **Renown** based on the degree of success (or failure). To determine the Renown gained (or lost), see *Narrative Rules*.
+```{block, type = 'rnote'}
+During campaigns, the outcome of the Hunt grants **Renown** based on the degree of success (or failure). To determine the Renown gained (or lost), see *Narrative Rules*.
+```
 
 ### Executive Turns {#turns .unnumbered}
 
@@ -114,9 +114,9 @@ The game is over at the end of the Round when one of the following is true:
 
 All Models can take one free Move Action and one more Action on their Turn in any order they choose. The Model declares their First Action advancing their Personal Clock by that Action’s Tick Cost unless it is their free Move Action for the Turn.
 
-<br/>
-
-> For Foes, when resolving a Decision Tree that would require the Foe to move, they always use their free Move Action first, reserving their second Action for their Attack, unless that Action must also be ultimately spent for movement.
+```{block, type = 'note'}
+For Foes, when resolving a Decision Tree that would require the Foe to move, they always use their free Move Action first, reserving their second Action for their Attack, unless that Action must also be ultimately spent for movement.
+```
 
 #### 2. Execute First Action {-}
 
@@ -159,7 +159,9 @@ If a Model foregoes taking an Action during their Turn, they are treated as exec
 
 The Model attempting the Action makes an Athletics Check. If successful, the Model can move up to its Speed (SPD) plus 1” for each Success rolled. On a failure, the Model cannot move.
 
-> Remember that Models pay an Action’s Tick cost prior to attempting the relevant Check and regardless of its outcome.
+```{block, type = 'rnote'}
+Remember that Models pay an Action’s Tick cost prior to attempting the relevant Check and regardless of its outcome.
+```
 
 #### Move (2 Tickes) {-}
 
@@ -243,9 +245,7 @@ Foes use their **Terror Rating** instead of Fortitude to make the Check. If a Fo
 
 Model attempts to use a piece of Gear, so long as they meet other requirements for its usage. For example, a Gear that indicates “Must Ready” must be considered Readied prior to attempting this Action.  The Skill and DT used in the Check is determined by the Gear’s description.   If successful, apply the effects of the Gear and, for Gear with limited **Ammo**, reduce Ammo by 1. On a failure, the effects do not occur but Ammo is still reduced by 1.
 
-
-
-### Actions Summary {#actsum .unnumbered}
+Table: (#tab:actsum) Actions Summary
 
 |          Name          | Ticks |                            Effect                            |
 | :--------------------: | :---: | :----------------------------------------------------------: |
@@ -267,4 +267,4 @@ Model attempts to use a piece of Gear, so long as they meet other requirements f
 |          Flee          |   3   | Athletics Check (DT 7; within 1” of Exit). Model leaves the Play Area. |
 |          Pass          |   1   |                      The Model is idle.                      |
 |        Recover         |   2   | Fortitude Check (DT 5). Model clears one Condition. Foes use Terror instead of Fortitude to make Check. |
-|        Use Gear        |   3   | Model makes use of Gear and applies effects on Success. Skill used in the Check is determined by Gear |
+|        Use Gear        |   3   | Model makes use of Gear and applies effects on Success. Skill used in the Check is determined by Gear. |

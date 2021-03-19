@@ -13,11 +13,9 @@
 - Tokens to track **[Conditions](#conditions)**.
 - Model sheets (from [Cazadores on itch.io](https://matachingames.itch.io/cazadores)), pencil, and paper clips.
 
-<br/>
-
-> Throughout, some words are bolded and capitalized (eg., **Adversary**) to indicate they are game terms with specific rules. Bolding only occurs the first time a term appears in a chapter.
-
-
+```{block, type = 'rnote'}
+Throughout, some words are bolded and capitalized (eg., **Adversary**) to indicate they are game terms with specific rules. Bolding only occurs the first time a term appears in a chapter.
+```
 
 ## Models & Scale {#scale}
 
@@ -36,9 +34,9 @@ All distances in the game are measured in inches. When measuring, always:
 - Make movement measurements from the same edge of the **Model’s** base throughout the move.
 - Use the closest points between two objects when measuring the distance between them.
 
-<br/>
-
-> Players can choose to measure distances at any point. 
+```{block, type = 'rnote'}
+Players can choose to measure distances at any point. 
+```
 
 ### Line of Sight {#los}
 

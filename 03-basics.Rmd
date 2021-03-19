@@ -4,9 +4,9 @@
 
 ### Checks {#checks .unnumbered}
 
-The central mechanic in the game is referred to as a **Check** and is used to determine the result of a **Model’s Actions**.
+The central mechanic in the game is referred to as a **Check** and is used to determine the result of a **Model’s [Actions](#actions)**.
 
-Checks are made with a pool of d10s equal to the Model’s **Rating** in the relevant **Skill** plus its linked **Attribute** (e.g., **Melee Checks** use a dice pool composed of a number of d10s equal to the Model’s **Melee Rating** plus their **Prowess Rating**). If a Model does not have a relevant Skill Rating for the Check, then it makes the Check using only the associated **Attribute Rating**. To this pool, you always add the **Difficulty Die** (1d10 of a different color).
+Checks are made with a pool of d10s equal to the Model’s **Rating** in the relevant **[Skill](#skills)** plus its linked **[Attribute](#attributes)** (e.g., **Melee Checks** use a dice pool composed of a number of d10s equal to the Model’s **Melee Rating** plus their **Prowess Rating**). If a Model does not have a relevant Skill Rating for the Check, then it makes the Check using only the associated **Attribute Rating**. To this pool, you always add the **Difficulty Die** (1d10 of a different color).
 
 All of the dice are rolled together, any die that rolls equal to or higher than the value of the Difficulty Die is considered a **Success**. A single Success is often all that is required for a Model to accomplish their Action. If a Model fails a Check, they do nothing else but can still execute their free **Move Action** if it’s available. 
 
@@ -18,9 +18,9 @@ Difficulty Thresholds are a minimum value that the dice rolled must equal or exc
 
 During a Check, the Difficulty Die might come up as greater than the DT for any Check. If so, it overrides the DT to determine the value the dice must equal. 
 
-<br/>
-
->For example, if a Model attempts a Shooting Attack against a Target, the Target’s attempt to protect itself using its Defence as a DT (DT Target DEF = 6). Dice rolled must be equal to or greater than 6 at *minimum* to be considered Successes.
+```{block, type = 'rnote'}
+For example, if a Model attempts a Shooting Attack against a Target, the Target’s attempt to protect itself using its Defence is treated as a DT (DT Target DEF = 6). Dice rolled must be equal to or greater than 6 at *minimum* to be considered Successes.
+```
 
 ### Criticals & Abilities {#crits .unnumbered}
 
@@ -58,9 +58,9 @@ Moments of furious struggle are demarcated by Ticks on the **Round Clock**. A tr
 
 During a Model’s **Turn**, when it attempts an Action, the Model must first pay the Action’s Ticks, advancing their Personal Clock by that amount. Once it has carried out its Actions, the Model will not be able to take another Turn until the Round Clock matches their Personal Clock again.
 
-<br/>
-
-> For example, a Model with a Personal Clock at Tick 1 makes a **Melee Attack**. First, it advances its Personal Clock by the Attack Action’s Ticks (3), bringing its clock to Tick 4. Then, regardless of the outcome of the Attack, it cannot take another Turn until the Round Clock is at Tick 4. 
+```{block, type = 'rnote'}
+For example, a Model with a Personal Clock at Tick 1 makes a **Melee Attack**. First, it advances its Personal Clock by the Attack Action’s Ticks (3), bringing its clock to Tick 4. Then, regardless of the outcome of the Attack, it cannot take another Turn until the Round Clock is at Tick 4.
+```
 
 ### Ending the Round {-}
 
@@ -68,9 +68,9 @@ The Round Clock only advances once all eligible Models take a Turn during a Tick
 
 Unlike the Round Clock, Personal Clocks do not reset, instead they “loop”. If a Model’s Personal Clock is at Tick 9 and it takes an Action of 3 Ticks, then it’s Personal Clock is first advanced to 10, then to 1, and finally settles at Tick 2. 
 
-<br/>
-
-> Players can use the Personal Clocks at the bottom of the Model sheets with paper clips to track Ticks for each Model. Alternatively, write names on blank counters and slide them back and forth on the Round Clock to track Ticks for all Models in one place. 
+```{block, type = 'rnote'}
+Players can use the Personal Clocks at the bottom of the Model sheets with paper clips to track Ticks for each Model. Alternatively, write names on blank counters and slide them back and forth on the Round Clock to track Ticks for all Models in one place.
+```
 
 ## Terrain Types {#terrain}
 
@@ -83,9 +83,9 @@ Before the game starts, the players should agree on what **Type** to assign to e
 - **Obscuring Terrain:** Fog, thick bush, etc., that provides **Cover** but does not block **LOS.**
 - **Blocking Terrain:** Opaque or solid materials that block **LOS**.
 
-<br/>
-
-> **Adversaries** are immune to the effects of Difficult and Dangerous Terrain.
+```{block, type = 'rnote'}
+**Adversaries** are immune to the effects of Difficult and Dangerous Terrain.
+```
 
 ### Borders & Exits {#borders .unnumbered}
 
@@ -139,9 +139,9 @@ The players’ **Models** are either **Cazadores**, the fearless and exceptional
 - - **Fortitude:** Grit and steadfastness.
   - **Leadership:** Inspirational qualities and knowledge of tactics.
 
-<br/>
-
->When making **Checks**, Cazadores roll d10s equal to the sum of the paired **Skill** and **Attribute** **Ratings** but **Companions** and **Foes** rely only on their **Attributes**.
+```{block, type = 'rnote'}
+When making **Checks**, Cazadores roll d10s equal to the sum of the paired **Skill** and **Attribute** **Ratings** but **Companions** and **Foes** rely only on their **Attributes**.
+```
 
 ### Wounds {#wounds .unnumbered}
 
@@ -195,6 +195,8 @@ Whenever there are multiple possible Targets for a Foe’s actions, the players 
 
 A Minion’s Turn involves answering “Yes or No” questions, in order, according to their Decision Tree and executing the first “Yes” response. 
 
+Table:  (\#tab:foedtree) Foe Decision Trees
+
 |  **Foe Type**  |                      **Question Order**                      |
 | :------------: | :----------------------------------------------------------: |
 | Aggressive (♠) |  1) Close Combat; 2) Aggress; 3) Reposition; 4) Hold Ground  |
@@ -236,9 +238,9 @@ All Adversaries have their total number of Wounds (WNDs) spread out across vario
 
 When a specific Hit Location’s Wounds have been exhausted (i.e., are reduced to 0), there is usually an ongoing effect that comes into play. These effects are described in the Adversary’s entry. In addition, all future WNDs dealt to that Hit Location are treated as WNDs to the next highest Hit Location.
 
-<br/>
-
-> An Adversary’s Upper Limbs take 3 WNDs with 1 left. The last WND is removed and the remaining 2 WNDs are dealt to its next highest Hit Location, in this case, the Torso.
+```{block, type = 'rnote'}
+An Adversary’s Upper Limbs take 3 WNDs with 1 left. The last WND is removed and the remaining 2 WNDs are dealt to its next highest Hit Location, in this case, the Torso.
+```
 
 #### Adversary Actions {-}
 
@@ -255,16 +257,16 @@ The **Special** Foe Type is only applicable to Adversaries and refers to a mixed
 
 The value on the card determines the specific Action that the Adversary will take. Usually this is a form of Attack and includes additional specialized modifiers tailored to the Adversary. 
 
-<br/>
-
-> *An example Adversary Action* 
->
-> **Ace (Sweeping Smash)**: +2 ATK +1 RNG. All Hostile Models within RNG suffer a Melee Attack. Models hit are pushed 2” away.
+```{block, type = 'rnote'}
+*An example Adversary Action*    
+**Ace (Sweeping Smash)**: +2 ATK +1 RNG. All Hostile Models within RNG suffer a Melee Attack. Models hit are pushed 2” away.
+```
 
 #### Exhausting the Adversary Deck {-}
 
 When the Hit Location or Action piles for the Adversary are exhausted, the players should simply take the discard piles, and without shuffling, turn them over to create new Hit Location and Action piles. 
 
-<br/>
+```{block, type = 'rnote'}
+This allows the players to predict the Adversary’s Actions to some degree.
+```
 
-> This allows the players to predict the Adversary’s Actions to some degree.
