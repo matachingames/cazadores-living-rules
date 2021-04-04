@@ -1,0 +1,22 @@
+# Gear {#gear}
+
+Despite their prowess, **[Cazadores](#cazadores)** are ultimately human. Their bodies are honed instruments of the **Hunt**, but they must still rely on an assortment of **[Weapons](#gear-weapons)**, **[Armour](#gear-armour)**, and **[Special Gear](#special-gear)** to overcome their **[Foes](#foes)**. Cazadores rely on these tools of the Hunt to such a degree that they trade and stake their reputations and **[Renown](#renown)** to ensure the **[Pack](#pack)** is properly equipped. 
+
+
+Each Cazador or **[Companion](#companion-types)**, may be equipped with up to 3 Weapons, 1 Armour, and 2 Special Gear. Cazadores know that bringing more into the Hunt is simply too cumbersome and therefore carries too great a risk to one’s life. 
+
+## Weapons {#gear-weapons}
+
+Table: (#tab:melee-weapons) Melee Weapons
+
+|                    Weapon                     | POW  | RNG  |                     Abilities and Other                      | Renown |
+| :-------------------------------------------: | :--: | :--: | :----------------------------------------------------------: | :----: |
+|                Ball and Chain                 |  0   |  2"  | +2 Tick to Attack. Crit: Impose Defenceless Condition. 2-handed. |   1    |
+|     Great Weapon (Maul, Great Sword, Axe)     |  1   |  2"  |                 +1 Tick to Attack. 2-handed.                 |   1    |
+| Hand Weapon (Dagger, Saber, Cleaver, Hatchet) |  0   |  1"  |                          1-handed.                           |   1    |
+|                Serrated Blade                 |  1   |  1"  |             Crit: Impose the Bleeding Condition.             |   3    |
+|                    Sheild                     |  0   |  0   |                   +1 to Armour. 1-handed.                    |   1    |
+|                Staff or Spear                 |  0   |  2"  |                          2-handed.                           |   1    |
+|                     Torch                     |  -1  |  1"  |          Crit: Impose Burning Condition. 1-handed.           |   1    |
+|                     Whip                      |  -1  |  2"  |                      -1 Tick to Attack.                      |   1    |
+

@@ -14,12 +14,15 @@ All of the dice are rolled together, any die that rolls equal to or higher than 
 
 To simulate the difficulty involved in some **Checks**, like hitting a moving **Target** with a **Shooting Attack**, the game employs **Difficulty Thresholds** **(DT)**. 
 
-Difficulty Thresholds are a minimum value that the dice rolled must equal or exceed to be considered a Success beyond the value rolled on the Difficulty Die. The DT might be a fixed value (e.g., DT 5) or it might refer to the value for one of the Target’s Ratings (e.g., DT Target DEF).  
+Difficulty Thresholds are a minimum value that the dice rolled must equal or exceed to be considered a Success beyond the value rolled on the Difficulty Die. The DT might be a fixed value (e.g., DT 5) or it might refer to the value for one of the Target’s Ratings (e.g., DT Target DEF).
 
-During a Check, the Difficulty Die might come up as greater than the DT for any Check. If so, it overrides the DT to determine the value the dice must equal. 
+
+
+During a Check, the Difficulty Die might come up as greater than the DT for any Check. If so, it overrides the DT to determine the value the dice must equal.
+
 
 ```{block, type = 'rnote'}
-For example, if a Model attempts a Shooting Attack against a Target, the Target’s attempt to protect itself using its Defence is treated as a DT (DT Target DEF = 6). Dice rolled must be equal to or greater than 6 at *minimum* to be considered Successes.
+For example, if a Model attempts a Shooting Attack against a Target, the Target’s attempt to protect itself using its Defence is treated as a DT (e.g., DEF of 6, sets DT to 6). Dice rolled must be equal to or greater than 6 at *minimum* to be considered Successes.
 ```
 
 ### Criticals & Abilities {#crits .unnumbered}
@@ -36,33 +39,38 @@ Maneuvers and situational factors in the game can result in **Advantage** or **D
 
 Advantage and Disadvantage cancel each other out at one to one, so if a Model has two instances of Advantage and one of Disadvantage, they end up with a single instance of Advantage. 
 
+```{block, type = 'rnote'}
 A Model cannot “stack” Advantages or Disadvantages. Whether a Model has one or three of either doesn’t change that only two Difficulty Dice can ever be rolled.
+```
 
 ### Other Rolls {#scatter .unnumbered}
 
 Sometimes the game requires that you roll a d5. To do so, roll a d10 and treat a 1-2 as 1, 3-4 as 2, and so on. One example of this use is the **Scatter Roll**. 
 
-To make a Scatter Roll, roll a d5 to determine a random distance and direction. Treat the "point" on the die that is off the surface of the Play Area as indicating the direction of the scatter and the numerical value as the distance. Then, on the Play Area, measure the distance from the Model or token being scattered in the direction determined by the die, to find the new position for that Model or token.
+To make a Scatter Roll, roll a d5 to determine a random distance and direction. Treat the "point" on the die that is off the surface of the Play Area as indicating the direction of the scatter and the numerical value as the distance. Then, on the Play Area, measure the distance from the Model or token being scattered in the direction determined by the die to find the new position for that Model or token.
 
-<!--INSERT SCATTER ROLL DIAGRAM-->
+```{r, echo = FALSE, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics(path = "images/scatter-roll.png", auto_pdf = TRUE)
+```
 
-Additionally, you might also be asked to roll a d100 to determine a random result on some tables, such as for **Scars**. To do so, simply roll 2d10s and treat one of the dice as the *tens* and the other as the *ones* to obtain a result between 1 and 100.
+
+Additionally, you might also be asked to roll a d100 to determine a random result on some tables, such as for [**Scars**](#scars). To do so, simply roll 2d10s and treat one of the dice as the *tens* and the other as the *ones* to obtain a result between 1 and 100.
 
 ## Actions, Ticks, & Clocks
 
 ### The Cost of Action {#ticks .unnumbered}
 
-**Cazadores** are driven by boundless bravery and unshakeable resolve, while the **Adversary** and its **Minions** possess unnatural strength and fearsome power. Neither are limited by their stamina or endurance during the **Hunt**. Instead, all **Actions** take precious time, represented as **Ticks**. 
+**[Cazadores](#cazadores)** are driven by boundless bravery and unshakeable resolve, while the **[Adversary](#adeck)** and its **[Minions](#ftypes)** possess unnatural strength and fearsome power. Neither are limited by their stamina or endurance during the **[Hunt](#structure)**. Instead, all **Actions** take precious time, represented as **Ticks**. 
 
-Moments of furious struggle are demarcated by Ticks on the **Round Clock**. A tracker with 10 Ticks that advances throughout the game. Each **Model** possesses a **Personal Clock** which tracks the next Tick on which they can act.
+Moments of furious struggle are demarcated by Ticks on the **[Round Clock](#rounds)**. A tracker with 10 Ticks that advances throughout the game. Each **Model** possesses a **Personal Clock** which tracks the next Tick on which they can act.
 
-During a Model’s **Turn**, when it attempts an Action, the Model must first pay the Action’s Ticks, advancing their Personal Clock by that amount. Once it has carried out its Actions, the Model will not be able to take another Turn until the Round Clock matches their Personal Clock again.
+During a Model’s **[Turn](#turns)**, when it attempts an Action, the Model must first pay the Action’s Ticks, advancing their Personal Clock by that amount. Once it has carried out its Actions, the Model will not be able to take another Turn until the Round Clock matches their Personal Clock again.
 
 ```{block, type = 'rnote'}
 For example, a Model with a Personal Clock at Tick 1 makes a **Melee Attack**. First, it advances its Personal Clock by the Attack Action’s Ticks (3), bringing its clock to Tick 4. Then, regardless of the outcome of the Attack, it cannot take another Turn until the Round Clock is at Tick 4.
 ```
 
-### Ending the Round {-}
+#### Ticks, Clocks, and the Flow of Time {-}
 
 The Round Clock only advances once all eligible Models take a Turn during a Tick. Once it reaches Tick 10 and would advance, instead the **Round** ends. At this point all **Conditions** and other effects that take effect at the end of the Round are resolved and the Round Clock is reset to Tick 1. 
 
@@ -71,22 +79,20 @@ Unlike the Round Clock, Personal Clocks do not reset, instead they “loop”. I
 ```{block, type = 'rnote'}
 Players can use the Personal Clocks at the bottom of the Model sheets with paper clips to track Ticks for each Model. Alternatively, write names on blank counters and slide them back and forth on the Round Clock to track Ticks for all Models in one place.
 ```
-
 ## Terrain Types {#terrain}
 
 Before the game starts, the players should agree on what **Type** to assign to each piece of **Terrain** on the board. Each piece of Terrain might have multiple Types: 
 
 - **Open Terrain**: Flat areas of ground or pieces of Terrain with no effect.
 - **Difficult Terrain**: Rough and stoney ground, shallow water, slick ice. **Models** move at half speed (e.g., 1” is treated as 2”).
-- **Dangerous Terrain**: Craggy rocks, vine-covered jungles, all count as Dangerous Terrain. All Dangerous Terrain is treated as Difficult Terrain. In addition, the first time a Model enters Dangerous Terrain it must pass an **Athletics Check** or take the **Knocked Down Condition**. 
+- **Dangerous Terrain**: Craggy rocks, vine-covered jungles, all count as Dangerous Terrain. All Dangerous Terrain is treated as Difficult Terrain. In addition, the first time a Model enters Dangerous Terrain it must pass an **[Athletics Check](#checks)** or take the **Knocked Down [Condition](#conditions)**. 
 - **Impassable Terrain:** High walls, chasms, or lava pits are included. A Model can never enter Impassable Terrain (though they might leap it!)
-- **Obscuring Terrain:** Fog, thick bush, etc., that provides **Cover** but does not block **LOS.**
+- **Obscuring Terrain:** Fog, thick bush, etc., that provides **[Cover](#cover)** but does not block **[LOS](#los).**
 - **Blocking Terrain:** Opaque or solid materials that block **LOS**.
 
 ```{block, type = 'rnote'}
 **Adversaries** are immune to the effects of Difficult and Dangerous Terrain.
 ```
-
 ### Borders & Exits {#borders .unnumbered}
 
 Prior to the game, the players should decide which parts of the **Play Area’s**  edges (**Borders**) are considered **Exits**. Exits allow **Cazadores** and **Companions** to flee from the fight and be removed from the Play Area alive. The rest of the Borders are considered **Impassable Terrain** that cannot be overcome.
@@ -95,7 +101,7 @@ Players should consider the location of the **Hunt** when determining which part
 
 ### Cover {#cover .unnumbered}
 
-If any potential line for determining **LOS** passes through **Obscuring Terrain** or **Blocking Terrain**, the defender benefits from **Cover**. Cover grants **Disadvantage** to the **Model** making a **Melee** or **Shooting** **Attack**.
+If any potential line for determining **LOS** passes through **Obscuring Terrain**, the defender benefits from **Cover**. Cover grants **Disadvantage** to the **Model** making a **Melee** or **Shooting** **Attack**.
 
 ### Areas {#areas .unnumbered}
 
@@ -103,7 +109,7 @@ If any potential line for determining **LOS** passes through **Obscuring Terrain
 
 ## Cazadores & Companions {#cazadores}
 
-The players’ **Models** are either **Cazadores**, the fearless and exceptional hunters who lead the **Pack** against insurmountable odds, or **Companions**, specialists, helpers, familiars, and reticent civilians who aid them on their travails. 
+The players’ **Models** are either **Cazadores**, the fearless and exceptional hunters who lead the **[Pack](#pack)** against insurmountable odds, or **Companions**, specialists, helpers, familiars, and reticent civilians who aid them on their travails. 
 
 ### Attributes {#attributes .unnumbered}
 
@@ -120,27 +126,21 @@ The players’ **Models** are either **Cazadores**, the fearless and exceptional
 **Skills** represent a **Model’s** expertise derived from training or experience in a specific area of the **Hunt**. Skills are always a combination of aptitude and expertise so each is paired with an Attribute (e.g., Melee [PROW]). 
 
 - Prowess (PROW) Skills**:**
-
-- - **Athletics:** Honed physical endurance and coordination.
+	- **Athletics:** Honed physical endurance and coordination.
   - **Melee:** Skill in close combat.
-
 - Sharpness (SHRP) Skills: 
-
-- - **Shooting :** Skill in ranged combat.
+	- **Shooting :** Skill in ranged combat.
   - **Stealth:** Expertise at hiding and ambushing.
-
 - Wits (WIT) Skills:
-
-- - **Hunt:** Expertise in tracking and other aspects of the Hunt.
+	- **Hunt:** Expertise in tracking and other aspects of the Hunt.
   - **Lore:** Knowledge of **Foes**, **Rituals**, and other dark secrets.
-
 - Resolve (RES) Skills:
-
-- - **Fortitude:** Grit and steadfastness.
+	- **Fortitude:** Grit and steadfastness.
   - **Leadership:** Inspirational qualities and knowledge of tactics.
 
 ```{block, type = 'rnote'}
-When making **Checks**, Cazadores roll d10s equal to the sum of the paired **Skill** and **Attribute** **Ratings** but **Companions** and **Foes** rely only on their **Attributes**.
+| *A Particular Set of Skills*    
+| When making **Checks**, Cazadores roll d10s equal to the sum of the paired **Skill** and **Attribute** **Ratings** but **Companions** and **Foes** rely only on their **Attributes**.
 ```
 
 ### Wounds {#wounds .unnumbered}
@@ -149,16 +149,16 @@ A **Model’s** capacity to endure agony and stay in the fight are measured in t
 
 ### Defences & Armour {#defence .unnumbered}
 
-**Models** also have **Defence (DEF) Ratings** that indicate how well they are able to avoid or protect themselves from damage. In practice, these Ratings serve as the DT other Models must overcome when Attacking them. For the players’ Models, these Ratings are calculated as follows:
+**Models** also have **Defence (DEF) Ratings** that indicate how well they are able to avoid or protect themselves from damage. In practice, these Ratings serve as the **[DT](#dt)** other Models must overcome when Attacking them. For the players’ Models, these Ratings are calculated as follows:
 
 - **Melee Defence (MDEF):** The sum of **PROW** and Armour.
 - **Shooting Defence (SDEF):** The sum of **SHRP** and Armour.
 
-Most Models are also equipped with some degree of protection that is referred to as **Armor**. In general, the greater the protection provided by the Armor, the greater a hindrance it is to a Model, giving a penalty to their **SPD Rating**.
+Most Models are also equipped with some degree of protection that is referred to as **Armour**. In general, the greater the protection provided by the Armour, the greater a hindrance it is to a Model, giving a penalty to their **SPD Rating**.
 
 ## Foes {#foes}
 
-The **Foes** opposing the **Cazadores** are defined with less detail but with all the **Attributes** required to be worthy opponents. Foes’ **Actions** are determined using **Foe Type**, **Decision Trees**, and the **Adversary Deck**.
+The **Foes** opposing the **Cazadores** are defined with less detail but with all the **Attributes** required to be worthy opponents. They are either **Minions** or **Adversaies**. **Foes**’ **Actions** are determined using **Foe Type**, **Decision Trees**, and the **Adversary Deck**.
 
 ### Attributes {#fattributes .unnumbered}
 
@@ -167,7 +167,7 @@ All **Foes** are defined by a condensed list of **Attributes**:
 - **Speed (SPD):** Quickness and how far it can move in one Action in inches.
 - **Attack (ATK):** Ferocity in close (**Melee)** and ranged (**Shooting**) combat.
 - **Range** **(RNG)**: Reach in close combat, often modified if the Model has access to **Shooting Attacks**. 
-- **Terror (TER):** Unnatural power, used to terrify and clear **Conditions**.
+- **Terror (TER):** Unnatural power, used to terrify and clear **[Conditions](#conditions)**.
 - **Defence (DEF):** Physical agility and strength, defining its capacity to defend itself against **Attacks**, traps, etc. 
 - **Wounds (WND):** Physical health.
 
@@ -177,15 +177,15 @@ All **Foes** are defined by a condensed list of **Attributes**:
 
 - **Aggressive (♠):** Models that seek to engage the Cazadores**,** heedless of the danger and odds. Usually focused on close combat.
 - **Defensive (♦):** Models that avoid close combat maintaining range or seeking strength in numbers. Usually focused on ranged combat.
-- **Sentry (♣):** Models that do not focus on engaging the Cazadores in combat and instead patrol Objectives or positions near the Adversary.
+- **Sentry (♣):** Models that do not focus on engaging the Cazadores in combat and instead patrol **[Objectives](obj)** or positions near the Adversary.
 
 ### Foe Move and Recover Actions {#fmove .unnumbered}
 
-Like other Models, Foes also receive a free Move Action, therefore, the first Move Action is often free. However, Foes can take the **Recover Action** instead of the free Move Action, and will always do so to clear Conditions before resolving **Decision Trees**. Foes will also always move as far as possible as whenever they execute a Move Action.
+Like other Models, Foes also receive a **[free Move Action](#actions)**, therefore, the first Move Action is often free. However, Foes can take the **Recover Action** instead of the free Move Action, and will always do so to clear Conditions before resolving **Decision Trees**. Foes will also always move as far as possible as whenever they execute a Move Action.
 
 ### Determining Aggro {#aggro .unnumbered}
 
-Whenever there are multiple possible Targets for a Foe’s actions, the players determine **Aggro**, according to Foe Type, in order to select a final Target. Ties are broken randomly by rolling a d10.
+Whenever there are multiple possible Targets for a Foe’s actions, the players determine **Aggro**, according to Foe Type, in order to select a final Target. Ties for Aggro are broken randomly by rolling a d10.
 
 - **Aggressive (♠) :** Hostile Model within 10”, LOS, and most WNDs remaining. 
 - **Defensive (♦):** Hostile Model within 10”, LOS, and least WNDs remaining. 
@@ -206,35 +206,35 @@ Table:  (\#tab:foedtree) Foe Decision Trees
 #### Decision Tree Questions {-}
 
 ***Aggress***: Is the Foe within 10” of a Hostile Model?   
- \    **Yes**: Foe takes Move Action toward Target, then resolves **Close Combat**, else **Ranged Combat**, else takes a second Move Action toward Target.
+ \    **Yes**: Foe takes Move Action toward Target, then **Close Combat**, else **Ranged Combat**, else take a second Move Action toward Target.
 
 ***Close Combat*:** Is the Foe within LOS and Melee Attack range of a Hostile Model?   
-\    **Yes**: The Foe takes a Melee Attack Action against the Target.
+\    **Yes**: The Foe takes a Melee Attack Action against the Target. End Turn.
 
 ***Hold Ground***: The Foe holds their position and takes the Pass Action.
 
 ***Ranged Combat*:** Is the Foe within LOS and Shooting Attack range of a Hostile Model?  
-\    **Yes**: The Foe takes a Shooting Attack Action against the Target. 
+\    **Yes**: The Foe takes a Shooting Attack Action against the Target. End Turn.
 
 ***Reposition***: Is the Foe more than 5” away from Friendly Models or Objectives?   
 \     **Yes:** The Foe takes a Move Action toward whichever is closest in this order: 1) furthest Objective, 2) largest group of Minions, 3) the Adversary; then **Close Combat**, else **Ranged Combat**, else **Hold Ground**.
 
 ***Retreat***: Is the Foe within a Hostile Model’s LOS and Melee Attack range?  
-\     **Yes**: The Foe takes a Move Action away from the Target and any other Hostile Models then resolves **Ranged Combat**, else **Hold Ground**.
+\     **Yes**: The Foe takes a Move Action away from the Target and any other Hostile Models, then **Ranged Combat**, else **Hold Ground**.
 
 #### Resolving "Else" in Decision Trees {#else .unnumbered}
 
 Some decisions require a Foe check other questions, as indicated by “else”. This means that the Foe executes the next question in the order that is a “Yes”. For example, after the first move in ***Aggress***, the Foe checks ***Close Combat***, then ***Ranged Combat***, with a second Move as the last choice to no other Yes responses.
 
-### The Adversary Deck {#adeck .unnumbered}
+### Adversaries and The Adversary Deck {#adeck .unnumbered}
 
-**Adversaries** are the major **Foes** of any **Hunt** and, in turn, they are much more unpredictable and dangerous. To simulate the greater complexity of these Foes, each Adversary uses the **Adversary Deck**, a standard 52-card deck of playing cards split and shuffled to form two separate piles, **Hit Locations** (the numbered 2-10 cards) and **Actions** (the Ace and face cards). 
+**Adversaries** are the major **Foes** of any **Hunt** and, in turn, they are much more unpredictable and dangerous. To the simulate the greater danger posed by these Foes, each Adversary uses the **Adversary Deck**, a standard 52-card deck of playing cards split and shuffled to form two separate piles, **Hit Locations** (the numbered 2-10 cards) and **Actions** (the Ace and face cards). 
 
-Each **Adversary** has a detailed entry for their Adversary Deck that describes specific Hit Locations and Actions tailored to fit their nature and particular qualities, these can be found in *The Adversary* book but you can find one in the *Quickstart* chapter.
+Each **Adversary** has a detailed entry for their Adversary Deck that describes specific Hit Locations and Actions tailored to fit their nature and particular qualities, these can be found in *[The Adversary](#adversaryintro)* book but you can find one in the *[Quickstart](#quickstart)* chapter.
 
 #### Hit Locations {-}
 
-All Adversaries have their total number of Wounds (WNDs) spread out across various Hit Locations. Whenever the players’ Models successfully attack the Adversary, they flip a number of Hit Location cards equal to WNDs dealt, and the WNDs are removed from that specific Hit Location.  
+All Adversaries have their total number of **[Wounds (WNDs)](#wounds)** spread out across various Hit Locations. Whenever the players’ Models successfully attack the Adversary, they flip a number of Hit Location cards equal to WNDs dealt, and the WNDs are removed from that specific Hit Location.
 
 When a specific Hit Location’s Wounds have been exhausted (i.e., are reduced to 0), there is usually an ongoing effect that comes into play. These effects are described in the Adversary’s entry. In addition, all future WNDs dealt to that Hit Location are treated as WNDs to the next highest Hit Location.
 
@@ -244,9 +244,9 @@ An Adversary’s Upper Limbs take 3 WNDs with 1 left. The last WND is removed an
 
 #### Adversary Actions {-}
 
-During the **Adversary’s Turn**, the players flip over and reveal one card from the Adversary’s pile of Actions. The specific card revealed is interpreted in terms of its suit and value to determine the Adversary’s Actions for its Turn.
+During the **Adversary’s Turn**, the players flip over and reveal one card from the Adversary’s deck of Actions. The specific card revealed is interpreted in terms of its suit and value to determine the Adversary’s Actions for its Turn.
 
-The suit determines which **Foe Type** the Adversary will use this Turn:
+The suit determines which **[Foe Type](#ftype)** the Adversary will use this Turn:
 
 - **Spades (♠):** Aggressive Foe Type
 - **Diamonds (♦) :** Defensive Foe Type
@@ -264,9 +264,8 @@ The value on the card determines the specific Action that the Adversary will tak
 
 #### Exhausting the Adversary Deck {-}
 
-When the Hit Location or Action piles for the Adversary are exhausted, the players should simply take the discard piles, and without shuffling, turn them over to create new Hit Location and Action piles. 
+When the Hit Location or Action decks for the Adversary are exhausted, the players should simply take the discard piles, and without shuffling, turn them over to create new Hit Location and Action piles. 
 
 ```{block, type = 'rnote'}
 This allows the players to predict the Adversary’s Actions to some degree.
 ```
-

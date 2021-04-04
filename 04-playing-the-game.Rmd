@@ -4,15 +4,15 @@
 
 ### 1. Choose an Adversary {-}
 
-Each game encompasses a **Hunt** for a dangerous and terrifying **Foe**, the **[Adversary](#foes)**, so the first step of setting up for a game is for the players to select an Adversary as the target of the Hunt. 
+Each game encompasses a **Hunt** for a dangerous and terrifying **Foe**, the **[Adversary](#adeck)**, so the first step of setting up for a game is for the players to select an Adversary as the target of the Hunt. 
 
-Players can choose from the Adversaries in *The Adversary* or develop one of their own based on the guidelines provided there. In campaign play, the Adversary for a Hunt might be determined by events in a previous game or the evolving story between play sessions. Take the time to prepare the **Model** for it and any **[Minions](#ftypes)** to the best of your ability. While the **[Cazadores](#cazadores)** are the protagonists, the Adversary is the centrepiece and they should serve as a ferocious and intimidating enemy.
+Players can choose from the Adversaries in *[The Adversary](#adversaryintro)* or develop one of their own based on the guidelines provided there. In campaign play, the Adversary for a Hunt might be determined by events in a previous game or the evolving story between play sessions. Take the time to prepare the **Model** for it and any **[Minions](#ftypes)** to the best of your ability. While the **[Cazadores](#cazadores)** are the protagonists, the Adversary is the centrepiece and they should serve as a ferocious and intimidating enemy.
 
 ```{block, type = 'rnote'}
-The entries for the Adversaries provide broad descriptions of these terrors but they are meant to be a source of inspiration, *not* strict representations. Use any Model you see fit to represent the Adversary and any other Model in the game. Interpreting the entries in your own way is a part of the fun!
+The entries for the Adversaries provide broad descriptions of these terrors but they are meant to be a source of inspiration, *not* strict representations. Use any Model you see fit to represent the Adversary and any other Model in the game. Interpreting the entries is part of the fun!
 ```
 
-### 2. Gather The Pack {-}
+### 2. Rally The Pack {-}
 
 A **Pack** is always composed of 2-4 Models with one Cazador per player. The rest of the Models in a Pack are composed of Companions. See the table for *Player Models in Game* to determine how many Companions each player is allowed during the Hunt.
 
@@ -27,15 +27,15 @@ Table: (#tab:modelcount) Player Models in A Hunt
 
 ### 3. Arrange The Play Area {-} {#arrange}
 
-Set up a Play Area that is  approximately 24” x 24” and place appropriate **[Terrain](#terrain)** for the encounter with the Adversary. If you are using the *Scouting & Preparation* phase as described in the *Narrative Rules* chapter, it might provide some guidance as to what Terrain is appropriate. 
+Set up a Play Area that is  approximately 24” x 24” and place appropriate **[Terrain](#terrain)** for the encounter with the Adversary. If you are using the *[Scouting & Preparation](#scout)* phase as described in the *[Narrative Rules](#nrules)* chapter, it might provide some guidance as to what Terrain is appropriate. 
 
 Have the Cazadores tracked the Adversary to its lair? Has the Adversary attacked the city and is currently rampaging through its streets? Any of these scenarios is feasible and ripe for ideas to use in designing the Play Area. 
 
-Once all the Terrain has been placed, the players should take the time to discuss which pieces of Terrain are considered to be of each **Terrain** **Type**, and which sections of the **[Borders](#borders)** are considered **[Exits](#borders)**, to reduce confusion during play. 
+Once all the Terrain has been placed, the players should take the time to discuss which pieces of Terrain are considered to be of each **[Terrain Type](#terrain)**, and which sections of the **[Borders](#borders)** are considered **[Exits](#borders)**, to reduce confusion during play. 
 
 ### 4. Set Up Objectives {#objsetup .unnumbered}
 
-*Cazadores* is most rewarding as a game when the players are also attempting to achieve additional **Objectives** beyond defeating the Adversary. For your first game, you might play without Objective but henceforth we recommend you use the *Objectives* rules in *Narrative Rules*. 
+*Cazadores* is most rewarding as a game when the players are also attempting to achieve additional **[Objectives](#obj)** beyond defeating the Adversary. For your first game, you might play without Objectives but after that we recommend you use the *[Objectives](#obj)* rules. 
 
 If you’re playing with Objectives, at this stage you should follow special setup rules outlined there. Note that these might impact other parts of *Game Setup*.
 
@@ -53,11 +53,11 @@ The players then take turns deploying their Cazadores and **Companions.** Each o
 
 ### 6. Mark The Clocks {-}
 
-Mark the **Round** **Clock** to **Tick 1** and do the same for the Models’ **[Personal Clocks](#ticks)**. It’s possible that Scouting or Preparation might impact it so that some Models start at later Ticks, adjust accordingly. 
+Mark the **[Round Clock](#clocks)**  to Tick 1 and do the same for the Models’ **[Personal Clocks](#ticks)**. It’s possible that Scouting or Preparation might impact it so that some Models start at later Ticks, adjust accordingly. 
 
 ### 7. Embark On The Hunt {-}
 
-After the previous steps are completed, the Hunt begins and the game is played over a series of **Rounds** divided into **Ticks**. On each Tick all eligible Models take Turns to act before advancing the Round Clock to the next Tick.
+After the previous steps are completed, the Hunt begins and the game is played over a series of **Rounds** divided into **[Ticks](#ticks)**. On each Tick all eligible Models take **[Turns](#turns)** to act before advancing the Round Clock to the next Tick.
 
 ```{block, type = 'rnote'}
 Models are considered “eligible” to take a Turn when their Personal Clocks match the Round Clock. That is, both Clocks are on the same Tick.
@@ -65,7 +65,7 @@ Models are considered “eligible” to take a Turn when their Personal Clocks m
 
 ## Game Structure {#structure}
 
-Each game takes place over a series of Rounds, where each Round is made up of 10 Ticks. Ticks are loose units of time that dictate when Models can act and take a Turn
+Each game takes place over a series of Rounds, where each Round is made up of 10 Ticks. Ticks are loose units of time that dictate when Models can act and take a Turn.
 
 ### Executing Rounds {#rounds .unnumbered}
 
@@ -85,7 +85,7 @@ When the players’ Models are the only eligible Models , the players choose the
 
 #### 3. Carry Out Turns {-}
 
-Each eligible Model resolves their Turn completely before the next eligible Model resolves their Turn. See *Executing Turns*.
+Each eligible Model resolves their Turn completely before the next eligible Model resolves their Turn. See *[Executing Turns](#turns)*.
 
 #### 4. Advance Round Clock {-}
 
@@ -93,7 +93,7 @@ Once all eligible Models have carried out their Turns, advance the Round Clock f
 
 #### 5. Ending The Round {-}
 
-If the Round Clock would advance beyond Tick 10, instead it is reset to Tick 1 and the Round ends. When the Round ends, check for and resolve any effects that take place at the end of the Round. **Conditions** and Objectives are the most common sources of effects that are resolved at the end of the Round. 
+If the Round Clock would advance beyond Tick 10, instead it is reset to Tick 1 and the Round ends. When the Round ends, check for and resolve any effects that take place at the end of the Round. **[Conditions](#conditions)** and Objectives are the most common sources of effects that are resolved at the end of the Round. 
 After resolving the end of the Round, check whether the Hunt ends according to *Ending the Hunt*.
 
 #### 6. Ending The Hunt {-}
@@ -101,18 +101,18 @@ After resolving the end of the Round, check whether the Hunt ends according to *
 The game is over at the end of the Round when one of the following is true:
 
 - **Slaughter:** Either all Pack Models or all Foes are unable to continue because their WNDs have been exhausted. 
-- **The Pack Flees:** If all remaining Pack Models have fled the Play Area.
+- **The Pack Flees:** All remaining Pack Models have fled the Play Area.
 - **Objectives:** A special condition dictated by an Objective that ends the Hunt is fulfilled.
 
 ```{block, type = 'rnote'}
-During campaigns, the outcome of the Hunt grants **Renown** based on the degree of success (or failure). To determine the Renown gained (or lost), see *Narrative Rules*.
+During campaigns, the outcome of the Hunt grants **[Renown](#renown)** based on the degree of success (or failure). To determine the Renown gained (or lost), see *[The Eternal Hunt](#eternalintro)*.
 ```
 
-### Executive Turns {#turns .unnumbered}
+### Executing Turns {#turns .unnumbered}
 
 #### 1. Declare First Action {-}
 
-All Models can take one free Move Action and one more Action on their Turn in any order they choose. The Model declares their First Action advancing their Personal Clock by that Action’s Tick Cost unless it is their free Move Action for the Turn.
+All Models can take one free Move Action and one more Action on their Turn in any order they choose. The Model declares their First Action and advances their Personal Clock by that Action’s Tick Cost unless it is their free Move Action for the Turn.
 
 ```{block, type = 'note'}
 For Foes, when resolving a Decision Tree that would require the Foe to move, they always use their free Move Action first, reserving their second Action for their Attack, unless that Action must also be ultimately spent for movement.
@@ -140,16 +140,16 @@ After executing their second Action, the Model ends their Turn and any effects t
 
 The different Actions available to each Model are categorized under three Types: **Movement Actions**, **Combat Actions**, and **Special Actions**. 
 
- Throughout the game, these Types are used to refer to all Actions under each Type. For example, conditions or other effects might place a Model at **Disadvantage** to perform all actions of a specific Type. 
+Throughout the game, these Types are used to refer to all Actions under each Type. For example, conditions or other effects might place a Model at **[Disadvantage](#adv)** to perform all actions of a specific Type. 
 
 #### Free Move Action {-}
 
 During its Turn, every Model receives a free Move Action, such that they can execute it without paying for its Tick Cost. If a Model chooses not to use its Move Action, treat it as if it executed a Move Action choosing to move 0”. 
-Foes can exchange their free Move Action for the Recover Action but the players’ Models cannot. See *Foe Move and Recover Actions*.
+Foes can exchange their free Move Action for the Recover Action but the players’ Models cannot. See *[Foe Move and Recover Actions](#fmove)*.
 
 #### Cost of The Pass Actions {-}
 
-If a Model foregoes taking an Action during their Turn, they are treated as executing the **Pass Action** and advance their Personal Clock by 1 Tick. Note that choosing not to use the free Move Action does not count as taking a Pass Action. Instead, it is treated as taking the free Move Action but choosing to move 0”.
+If a Model foregoes taking an Action during their Turn, they are treated as executing the **Pass Action** and advance their Personal Clock by 1 Tick. Note that choosing not to use the *free* Move Action does not count as taking a Pass Action. Instead, it is treated as taking the free Move Action but choosing to move 0”.
 
 ## Actions {#actions}
 
@@ -163,7 +163,7 @@ The Model attempting the Action makes an Athletics Check. If successful, the Mod
 Remember that Models pay an Action’s Tick cost prior to attempting the relevant Check and regardless of its outcome.
 ```
 
-#### Move (2 Tickes) {-}
+#### Move (2 Ticks) {-}
 
 The Model taking this Action can move up to its Speed.
 
@@ -186,7 +186,7 @@ A Model struck by an Attack, or that ends their Turn on unstable Terrain might s
 The Model attempting the Action makes a **Melee** or **Shooting Check** with **Difficulty Threshold (DT)** equal to their Target’s relevant **Defence**. The Skill and relevant Defence used for the Check is determined by the Weapon.  
 
 
-Additionally, the Weapon used in the Action must be **Readied** and the Target must be within the Weapon’s **Range** and within **Line of Sight (LOS)**. If successful, the Model deals **Wounds (WNDs)** equal to the Successes rolled plus the Weapon’s **Power** **(POW)**.   
+Additionally, the Weapon used in the Action must be **[Readied](#weapons)** and the Target must be within the Weapon’s **Range** and within **Line of Sight (LOS)**. If successful, the Model deals **Wounds (WNDs)** equal to the Successes rolled plus the Weapon’s **Power** **(POW)**.   
 
 #### Cast Ritual (4 Ticks) {-}
 
@@ -208,7 +208,7 @@ To attempt this Action, the Model must be within 1” of **Obscuring** or **Bloc
 
 #### Parry (4 Ticks) {-}
 
-The Model selects a single Target and makes Melee Check with a DT equal to the Target’s ATK. If successful, the next successful Melee Attack by the Target on this Model is cancelled and this Model immediately makes an Attack with Advantage against the Target. The Advantage gained by this Action expires at the start of this Model’s next Turn.
+The Model selects a single Target and makes Melee Check with a DT equal to the Target’s ATK. If successful, the next successful Melee Attack by the Target on this Model is cancelled and this Model immediately makes an Attack with Advantage against the Target. This Action expires at the start of this Model’s next Turn.
 
 #### Reload (1 Tick) {-}
 
@@ -220,7 +220,7 @@ To attempt this Action, the Model selects a single Target within 5”. The Model
 
 #### Switch (1 Tick) {-}
 
-The Model switches which Weapons or Gear are considered Readied, following any relevant restrictions. See *Readied Weapons in Detail* in the *Combat* chapter.
+The Model switches which Weapons or Gear are considered Readied, following any relevant restrictions. See *[Readied Weapons in Detail](#readied)* in the *[Combat](#combat)* chapter.
 
 ### Special Actions
 
@@ -243,7 +243,7 @@ Foes use their **Terror Rating** instead of Fortitude to make the Check. If a Fo
 
 #### Use Gear (3 Ticks) {-}
 
-Model attempts to use a piece of Gear, so long as they meet other requirements for its usage. For example, a Gear that indicates “Must Ready” must be considered Readied prior to attempting this Action.  The Skill and DT used in the Check is determined by the Gear’s description.   If successful, apply the effects of the Gear and, for Gear with limited **Ammo**, reduce Ammo by 1. On a failure, the effects do not occur but Ammo is still reduced by 1.
+Model attempts to use a piece of **[Gear](#Gear)**, so long as they meet other requirements for its usage. For example, a Gear that indicates “Must Ready” must be considered Readied prior to attempting this Action.  The Skill and DT used in the Check is determined by the Gear’s description.   If successful, apply the effects of the Gear and, for Gear with limited **Ammo**, reduce Ammo by 1. On a failure, the effects do not occur but Ammo is still reduced by 1.
 
 Table: (#tab:actsum) Actions Summary
 
@@ -262,7 +262,7 @@ Table: (#tab:actsum) Actions Summary
 |         Reload         |   1   |         Model reloads 1 Ammo into a Shooting Weapon.         |
 |     Spot Weakness      |   4   | Hunt Check (DT Target DEF within 5”). This Model and Friendly Models gain Advantage on Attacks against Target for rest of Round. |
 |         Switch         |   1   | Model switches which Weapons or Gear are considered Readied. |
-|  ***Other Actions***   |       |                                                              |
+| ***Special Actions***  |       |                                                              |
 |          Aid           |   2   | Leadership Check (DT 5). 1 Model within 3” succeeds at a Recover Action. |
 |          Flee          |   3   | Athletics Check (DT 7; within 1” of Exit). Model leaves the Play Area. |
 |          Pass          |   1   |                      The Model is idle.                      |

@@ -1,0 +1,117 @@
+# Gathering The Pack {#pack}
+
+When **Cazadores** come together with their allies and others of their kind for a **Hunt**, they form a **Pack**. When *Gathering the Pack*, players choose from their Cazador’s **Enlisted Companions**. When there are multiple Cazadores on a Hunt, each can only choose from their own Enlisted Companions and must choose up to the maximum allowed according to the number of players in the game, see *[Game Setup](#setup)*. 
+
+## Renown & Enlistment {#renown}
+
+Cazadores are the subjects of legend. Ferocious and unyielding in the face of dire **Foes**, their deeds earn them **Renown**. Cazadores trade on their deeds, using it to requisition the resources they require for the next **Hunt**. 
+
+
+
+Renown also allows Cazadores to draw the zealous, naive, and unwilling into their service, paying their **Companions**’ **Enlistment** cost in Renown. Each Cazador can have up to 5 Companions Enlisted and ready to aid on a Hunt. 
+
+
+
+However, just as glory can be earned in the Hunt, it can also be lost, and Cazadores can find themselves stretched for supplies and with their staunchest allies deserting the cause. For more, see *[The Eternal Hunt](#eternalintro)*. 
+
+## Cazadores {#buildcazadores}
+
+All **Cazadores** start the game with a standard array for their **[Attribute Ratings](#attributes)** as outlined below, 0 in every **[Skill Rating](#skills)**, no **[Rituals](#rituals)**, 1 **[Weapon](#gear-weapons)** of their choice, and **Light [Armour](#gear-armour)**. Each player can then spend 10 Renown to increase their Attributes or Skills, obtain **Weapons**, **Armour**, or **[Special Gear](#special-gear)**, and recruit Companions. 
+
+
+
+Renown must also be spent according to the restrictions below when creating a Cazador, and never exceed the maximum due to [*Advancement*](#advancement). Improving Attributes, SPD, WNDs, and Skills costs 1 Renown per increment during creation.
+
+Table: (#tab:start-attributes) Cazador Starting Attributes
+
+| **SPD** | **PROW** | **SHARP** | **WIT** | **RES** | **WND** |
+| :-----: | :------: | :-------: | :-----: | :-----: | :-----: |
+|   4”    |    3     |     3     |    3    |    3    |   12    |
+
+Table: (#tab:cazador-restrictions) Cazador Restrictions
+
+|       Restriction       |  **Creation**  |             **Maximum**             |
+| :---------------------: | :------------: | :---------------------------------: |
+|       Attributes        | Up to 3 points |            Each at max 7            |
+|        SPD, WND         | Up to 3 points |     SPD at max 8; WND at max 20     |
+|         Skills          | Up to 5 points |            Each at max 3            |
+|         Rituals         | Up to 2 points |              3 Rituals              |
+| Weapons, Armour, & Gear | Up to 2 points | 3 Weapons, 1 Armour, 2 Special Gear |
+|       Companions        | Up to 2 points |             5 Enlisted              |
+
+## Companion Types {#companion-types}
+
+**Companions** are the various hardened veterans, idealistic crusaders, and picaresque miscreants that aid **Cazadores** during the **Hunt**. Each is categorized under a **Companion Type** that determines their starting **Attributes** and **Gear**. Companions can also be improved and equipped with new Gear in campaigns.
+
+### Brigand {-}
+
+| **SPD** | **PROW** | **SHARP** | **WIT** | **RES** | **WND** |
+| :-----: | :------: | :-------: | :-----: | :-----: | :-----: |
+|   4”    |    4     |     3     |    2    |    3    |   10    |
+
+**Gear**:  Hand Weapon or Great Weapon. **Enlistment:** 1 Renown.
+
+### Chevalier {-}
+
+| **SPD** | **PROW** | **SHARP** | **WIT** | **RES** | **WND** |
+| :-----: | :------: | :-------: | :-----: | :-----: | :-----: |
+|   3”    |    3     |     2     |    2    |    3    |   11    |
+
+**Gear:**  Hand Weapon and Shield or Two-handed Weapon; Medium Armour. **Enlistment:** 2 Renown.
+
+### Duelist {-}
+
+| **SPD** | **PROW** | **SHARP** | **WIT** | **RES** | **WND** |
+| :-----: | :------: | :-------: | :-----: | :-----: | :-----: |
+|   3”    |    5     |     3     |    2    |    2    |   10    |
+
+**Gear:**  Hand Weapon or Great Weapon; Light Armour. **Enlistment:** 1 Renown.
+
+### Hound {-}
+
+| **SPD** | **PROW** | **SHARP** | **WIT** | **RES** | **WND** |
+| :-----: | :------: | :-------: | :-----: | :-----: | :-----: |
+|   5”    |    4     |     4     |    2    |    2    |   10    |
+
+**Gear:** None. **Enlistment:** 1 Renown.
+
+### Rogue {-}
+
+| **SPD** | **PROW** | **SHARP** | **WIT** | **RES** | **WND** |
+| :-----: | :------: | :-------: | :-----: | :-----: | :-----: |
+|   4”    |    3     |     4     |    3    |    2    |   10    |
+
+**Gear:** Hand Weapon and Light Armour. **Enlistment:** 1 Renown.
+
+### Stalker {-}
+
+| **SPD** | **PROW** | **SHARP** | **WIT** | **RES** | **WND** |
+| :-----: | :------: | :-------: | :-----: | :-----: | :-----: |
+|   4”    |    2     |     4     |    3    |    2    |   10    |
+
+**Gear:** Bow and Hand Weapon. **Enlistment:** 1 Renown.
+
+### Strider {-}
+
+| **SPD** | **PROW** | **SHARP** | **WIT** | **RES** | **WND** |
+| :-----: | :------: | :-------: | :-----: | :-----: | :-----: |
+|   5”    |    3     |     3     |    3    |    2    |    9    |
+
+**Gear:** Hand Weapon and Light Amour. **Enlistment:** 1 Renown.
+
+### Vicar {-}
+
+| **SPD** | **PROW** | **SHARP** | **WIT** | **RES** | **WND** |
+| :-----: | :------: | :-------: | :-----: | :-----: | :-----: |
+|   3”    |    2     |     2     |    5    |    4    |   10    |
+
+**Gear:** Hand Weapon or Staff. **Enlistment:** 1 Renown.
+
+### Vigilant {-}
+
+| **SPD** | **PROW** | **SHARP** | **WIT** | **RES** | **WND** |
+| :-----: | :------: | :-------: | :-----: | :-----: | :-----: |
+|   3”    |    3     |     3     |    2    |    3    |   11    |
+
+**Gear:** Hand Weapon and Light Armour. **Enlistment:** 1 Renown.
+

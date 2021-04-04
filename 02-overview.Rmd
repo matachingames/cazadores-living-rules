@@ -38,7 +38,7 @@ All distances in the game are measured in inches. When measuring, always:
 Players can choose to measure distances at any point. 
 ```
 
-### Line of Sight {#los}
+### Line of Sight {#los .unnumbered}
 
 **Line of Sight (LOS)** is used to determine if **Models** can see each other for the purposes of any **[Action](#actions)**. When determining LOS, imagine a cylinder that extends from the base of the unit up to its eyeline. Models can draw LOS from any point in 360° around this imaginary cylinder. 
 

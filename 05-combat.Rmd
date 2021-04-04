@@ -1,8 +1,108 @@
 # Combat {#combat}
 
-Testing git commits to the website
+The majority of the **Hunt** is embroiled in frenzied combat and **Models** are liable to make and suffer **Attacks** that force them to take **[Wounds (WND)](#wounds)** and incur **[Conditions](#conditions)**.
 
-## Now testing headings with this new chapter
+## Attacking {#attacks}
 
-The above seems to look fine
+A **Model** attacks by taking the **[Attack Action](#actions)** against a Hostile Model within **Range (RNG)** and **[Line of Sight (LOS)](#los)** with one of their **Readied** **Weapons**. The Attack Action is executed by making a Melee or Shooting Check using the Target’s relevant **[Defence (DEF)](#attributes)** as the **[Difficulty Threshold (DT)](#dt)**. For each **[Success](#checks)**, the Target loses 1 **WND**.
 
+### Criticals & Abilities {#combatcrits .unnumbered}
+
+Some Cazadores, Foes, and Weapons have **Abilities** that award a passive benefit or that can be activated when the Model rolls a **[Critical](#crits)** (a natural 10) on a relevant check (e.g., Attacks for Weapons). Abilities that require a Critical to be activated are preceded by **Crit** (e.g., Crit: Impose the Poisoned Condition). 
+
+```{block, type = 'rnote'}
+Abilities can only be activated once during the Model’s Turn, so Criticals remaining after activating Abilities are treated as normal Successes.
+```
+
+## Weapons {#weapons}
+
+**Cazadores** and **Companions** can carry up to 3 **Weapons** into a **Hunt** but only Readied Weapons are eligible for use in **Attacks**. 
+
+Whenever the players’ Models make an Attack, they must do so with a Readied Weapon and the Target must be within **RNG** of that Weapon. On a successful Attack, the Model also deals additional WNDs equal to their Weapon’s **Power (POW)**, however, most Weapons have a POW of 0. Especially large or cumbersome Weapons might have  also add Ticks to Attacks.
+
+```{block, type = 'rnote'}
+For example, if a Cazador makes a Melee Check with their Ancestral Sword (POW 2) and rolls 3 Successes, they would deal 5 WNDs.
+```
+
+### Readied Weapons in Detail {#readied .unnumbered}
+
+Although Models can bring up to 3 Weapons into a Hunt, only one Weapon per hand can be **Readied**. All Cazadores and Companions have two hands, therefore, they can have two 1-handed Weapons (e.g., two swords, or a spear and shield) or one 2-handed Weapon (e.g., a battleaxe or a bow) at the Ready. Models can take the **Switch Action** to swap any Weapon or Gear with their Readied Weapons. 
+
+
+Additionally, only Weapons that are Readied provide their Abilities to a Model. For example, if a Model with a Readied shield were to switch it for another Weapon, they would lose the +1 Armour benefit granted by the shield. 
+
+### Special Gear as Weapons {-}
+
+In practice, some **[Special Gear](#special-gear)** act as Weapons, such that they must be Readied and are used during Attacks (e.g., Fire Bombs). Any Gear that functions in this manner will indicate that it must be Readied prior to use and, therefore, can be part of a Switch Action. However, Special Gear are not considered Weapons for the purposes of a Model’s 3 Weapon limit. 
+
+### Dual Wielding {-}
+
+Models with two 1-handed Weapons Readied can choose which Weapon they will use prior to making an Attack, so long as the Target is within RNG of both Weapons. In practice, “dual wielding” is most useful when the Model has two Weapons with distinct Abilities that are advantageous in different situations.
+
+### Ammo {#ammo .unnumbered}
+
+Exclusively ranged Weapons like bows, crossbows, and pistols all start the **Hunt** with 3 **Ammo**. Each time the Weapon is fired, its Ammo is reduced by 1. The Weapon cannot be fired again once its Ammo reaches 0. Some Special Gear functions similarly and are also limited by Ammo, though they might have more or less Ammo than the standard 3.
+
+
+Once a Shooting Weapon is fired, the Model must take the **[Reload Action](#actions)** to use it again on a future **[Turn](#turns)**; this does not apply to Special Gear. At the end of the Hunt, the Ammo for Shooting Weapons or Special Gear are automatically restored.
+
+### Unarmed Combat {-}
+
+If a Model finds itself without an eligible Weapon (for example, having run out of Ammo on their Weapons), they can engage other Models in unarmed combat. Unarmed is considered a Weapon with RNG 0” and POW 0.
+
+### Foes and Weapons {-}
+
+Foes do not require Weapons to make Attacks. All of their innate and equipped capabilities for destruction are summarized in their **ATK** and **RNG [Attributes](#fattributes)**. 
+
+
+
+Therefore, Foes do not concern themselves with Ammo, reloading, switching weapons, or any other of these associated rules. However, remember that a Foe’s RNG indicates their reach in close combat. If they are capable of Shooting Attacks, their entry will note when this is modified with additional RNG. 
+
+## Other Combat Rules
+
+### Surrounded  {#surrounded .unnumbered}
+
+Whenever a **Model** is within close combat range of more **[Hostile](#scale)** Models than **Friendly** Models they are **Surrounded**. Attackers gain **[Advantage](#adv)** to **Attack Actions** against Surrounded Models. The **Adversary** is never Surrounded.
+
+### No "Engaged" Rule {-}
+
+Many games contain a rule that refers to “engagement” or a similar term that indicates that Models within range of close combat with each other cannot move away without succeeding at a disengagement action or suffering opportunity strikes from their opponent. *There is no such rule in this game*. 
+
+
+
+Cazadores are expert fighters and hunters who can weave their way through the battlefield in the face of lethal strikes from Foes. Therefore, locking Cazadores into a position is mostly reserved for effects inflicted by specially dangerous Foes. Most close combat Weapons have a RNG of 1” to support this approach.
+
+### Terror Attacks {#terrorattacks .unnumbered}
+
+While **Cazadores** must rely on cutting down their enemies, **Foes** can also use their innate fearsomeness to make **Attacks** using their **[Terror Rating](#fattributes)**. These Attacks are usually reserved for the **Adversary**. Terror Attacks often affect multiple models and impose the **[Terrified Condition](#conditions)**, but rarely inflict **[Wounds (WNDs)](#wounds)**. 
+
+
+
+Terror Attacks are considered Shooting Attacks with the following exceptions:
+
+- The Foe uses their **Terror Rating** to make the Shooting Check.
+- The **DT** for the Attack is the Target’s Fortitude Rating.
+
+## Conditions {#conditions}
+
+During the course of the fight, **Models** are likely to be afflicted by a variety of **Conditions** that impact their effectiveness. 
+
+```{block, type = 'rnote'}
+During the game, players can use the tokens provided in Model Sheets and Counters or set a d10 matching the Condition’s number next to the affected Model.
+```
+
+
+
+Table: (#tab:conditions) Conditions
+
+| **Condition**   | **Effect**                                                   |
+| --------------- | ------------------------------------------------------------ |
+| 1. Bleeding     | Model takes 1 WND after completing the Move or Cover Ground Action. |
+| 2. Burning      | Model takes 4 WNDs at end of Round.                          |
+| 3. Defenceless  | There is no DT to Attack this Model.                         |
+| 4. Freezing     | SPD -2. Model makes Stealth & Athletics Checks at Disadvantage. |
+| 5. Hidden       | Model is not eligible to be considered a Target in Foes' Decision Trees though it may still suffer Attacks or effects that target an Area or all Hostile Models. Model gains Advantage if the next Attack is made with this Condition. Any Action other than Move cancels the Condition. Condition expires at the end of the Round. |
+| 6. Knocked Down | Model can only take the Recover Action and has the Defenceless Condition until Knocked Down is removed. |
+| 7. Poisoned     | Model takes 1 WND at end of Round. Model has Disadvantage on Fortitude Checks. |
+| 8. Stunned      | Model can only take the Move or Recover Actions.             |
+| 9. Terrified    | Model must immediately move up to their SPD away from the Foe that Terrified it. Model cannot move toward that Foe until this Condition is cleared. |
