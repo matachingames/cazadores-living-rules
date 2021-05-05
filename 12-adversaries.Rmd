@@ -1,0 +1,258 @@
+# Adversaries {#adversary-list}
+
+This section of book reprints the rules outlined in the Book of the Hunter for [Foes](#foes).
+
+For this online version, simply go to that section in the Book of the Hunter. 
+
+## 1. An Accursed Construct {#accursed-construct .unnumbered}
+
+Shifting and whispering plates of a sleek alloy. A mockery of a human face, unfocused, unwavering, and unfathomable. Clawed fusils cradle a floating core radiating with unnatural warmth. The orb burns without flame, compelling all living things to their end in seconds stretched over decades. 
+
+The jealous and silent guardian to a place long withered and carried off by the earth, sea, and wind. Duty-bound, the knight patrols the borders of its master’s home. The rearguard to a war always on the horizon.
+
+Table: Accursed Construct
+
+| **SPD** | **ATK** | **RNG** | **DEF** | **TER** | **WND** |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+|   4”    |    7    |   1"    |    8    |    5    |   25    |
+
+### Special Rules {-}
+
+**Rapid Barrage** **(Special Suit):** The [Area 2](#areas) placed by this action is considered [Difficult Terrain](#terrain).
+
+### Minions {-}
+
+None.
+
+### Adversary Deck {-}
+
+#### Hit Locations {-}
+
+- Core (10): 5 WNDs. Diffraction (All Models within 10” suffer a Rating 8 Shooting Attack. On success, impose [Poisoned Condition](#conditions)).
+- Arsenal (8-9): 5 WNDs. Corrupted ([Disadvantage](#adv) to Attacks).
+- Ligaments (6-7): 5 WNDs. Frayed (-2 SPD).
+- Tissue (4-5): 5 WNDs. Torn (-1 DEF)
+- Armature (2-3): 5 WNDs. Cracked (-1 DEF).
+
+#### Actions {-}
+
+Standard Suits
+
+- **Ace (Rapid Barrage):** +4 RNG. All Models within RNG suffer Shooting Attack. Crit: Impose [Knocked Down Condition](#conditions).
+- **King (Warbling Seeker):** +6 RNG. Target suffers a Shooting Attack with [Advantage](#adv). 
+- **Queen (Blaring Shriek):** +4 RNG. All Models within RNG suffer a [Terror Attack](#terroattacks). If successful, impose [Terrified Condition](#conditions). Crit: Impose [Stunned Condition](#conditions). 
+- **Jack (Sudden Charge):** +3 SPD. Target suffers Melee Attack. If hit, Target is pushed 2” away. 
+
+Special Suit
+
+- **Ace, Sentry (Rapid Barrage):** As Standard but for each Model successfully hit place an [Area 2](#areas) centred directly underneath its base.
+- **King, Sentry (Warbling Seeker):** As Standard.
+- **Queen, Aggressive (Blaring Shriek):** As Standard. 
+- **Jack, Aggressive (Sudden Charge):** As Standard but any Models within 1” of Target also suffer the Attack. 
+
+
+
+## 2. The Constant Emperor's Praetorians {#emperor-praets .unnumbered}
+
+Bones thinly veiled by brackish skin, draped in darkness, the fiery words of their regent where their eyes once sat. The Praetorians, relentless and indomitable, sweep the long-forgotten trails once marched by their emperor's army. Wielding the Cerulean Flame, they incinerate any and all things that have touched the ground upon which their emperor set foot on his final conquest.
+
+Heralds, confidants, and consorts to the emperor, from which all noble things flow, the Praetorians were ordered to safeguard the kingdom while he seized the last unknown corner of the map, never to return. Ageless, mad, and resentful, the Praetorians scour the earth.
+
+Table: The Constant Emperor's Praetorians
+
+| **SPD** | **ATK** | **RNG** | **DEF** | **TER** | **WND** |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+|   3”    |    4    |   1"    |    5    |    5    |   30    |
+
+### Special Rules {-}
+
+**The Triumvirate**: Deploy the praetorians by randomly determining which to deploy first with a [Scatter Roll](#scatter) from the centre of the Play Area. Deploy the next Praetorian with a Scatter Roll from the first, and the third from the location of the second.
+
+**Thread that Binds**: The Praetorians are an Adversary composed of 3 Models that share 30 WNDs (10 each). Damage done to one may in fact harm another. When all the Hit Locations for one Praetorian are exhausted, that Praetorian can no longer fight.
+
+**The Sword, The Axe, and the Mace**: The names of the Praetorians have long been lost to time so each is referred to by their chosen weapon. The Adversary's Actions are executed by all of the Praetorians but the Target for each Praetorian's Action is determined individually. The Praetorian with the most WNDs remaining always executes the Action first, otherwise order is determined at random. The Praetorian’s joint [Personal Clock](#ticks) is advanced by the highest Tick Cost of all Actions performed.
+
+### Minions {-}
+
+None.
+
+### Adversary Deck {-}
+
+#### Hit Locations {-}
+
+- The Sword's Flame (10): 5 WNDs.
+- The Sword (8-9): 5 WNDs. Wounded (-1 TER to All Praetorians).
+- The Axe's Flame (7): 5 WNDs.
+- The Axe (5-6) 5 WNDs. Impaired (-1 ATK to All Praetorians).
+- The Mace's Flame (4) 5 WNDs.
+- The Mace (2-3): 5 WNDs. Pressed (-1 DEF to All Praetorians)
+
+#### Actions {-}
+
+Standard Suits
+
+- **Ace (Cerulean Flame):** +3 ATK. All Hostile Models within the imaginary triangle created by the positions of the Praetorians suffer a Shooting Attack. Crit: Impose [Burning Condition](#conditions).
+- **King (Howling Rush):** +2 SPD. Target suffers a Melee Attack. Crit: Impose [Knocked Down Condition](#conditions).
+- **Queen (Burning Lance):** +3 RNG. Target suffers a Shooting attack. Crit: Impose [Burning Condition](#conditions).
+- **Jack (Piercing Lunge):** Target suffers a Melee Attack.
+
+Special Suit
+
+- **Ace, Defensive (Cerulean Flame):** As Standard.
+- **King, Aggressive (Howling Rush):** As Standard.
+- **Queen, Aggressive (Burning Lance):** As Standard, but 2 Targets within RNG suffer Shooting Attack.
+- **Jack, Defensive (War Chant):** Terror Check. If successful, the casting Praetorian recovers 1d5 WNDs to their Flame Hit Location, with any remaining to their second Hit Location.
+
+
+
+## 3. A Creature Wreathed In Light {#creature-light .unnumbered}
+
+Luminous and astounding. A myriad of limbs moving with balletic grace. Greens, oranges, and golden filigree adorn the feathered wings that maintain it aloft in majesty. Vines flowering in a thousand radiant colors extend and brush terra firma.Deep under a canopy of ancient trees, heavy with dew, it waits for the end of days. 
+
+From the edges of the rainforest travellers can feel the reverberations of the creature’s song. The nearer both flora and fauna are to the creature, the more rapturously they sway to its voice. Members of the joyful audience ocassionally plucked gently by a spear tip to sustain the creature’s vigil. 
+
+Table: Creature Wreathed In Light
+
+| **SPD** | **ATK** | **RNG** | **DEF** | **TER** | **WND** |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+|   5”    |    5    |   2"    |    7    |    7    |   25    |
+
+### Special Rules {-}
+
+**Beloved Breath**: [Area 3](#areas). While within the area, Foes have +2 DEF. The Area is considered [Difficult Terrain](#terrain).
+
+### Minions {-}
+
+ **Morpheus Butterflies** **:** Two beautiful and languidly fluttering things. The dust from their wings calls forth restless dreams.
+
+ Table: Morpheus Butterfly
+
+| **SPD** | **ATK** | **RNG** | **DEF** | **TER** | **WND** |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+|   5”    |    3    |   1"    |    3    |    3    |    5    |
+
+**Minion Type**: [Sentry](#ftypes). **Shooting Attack:** +2 RNG. **Crit**: Imposed [Stunned Condition](#conditions).
+
+### Adversary Deck {-}
+
+#### Hit Locations {-}
+
+- Head (10): 5 WNDs. Weeping (+2 TER).
+- Torso (8-9): 5 WNDs. Marred(-1 to DEF).
+- Wings (6-7): 5 WNDs. Grounded (-2 SPD)
+- Upper Limb (4-5): 5 WNDs. Disarmed (-1 RNG).
+- Lower Limbs (2-3) 5 WNDs. Oozing (Immediately suffers [Bleeding Condition](#conditions).
+
+#### Actions {-}
+
+Standard Suits
+
+- **Ace (Harrowing Chorus)**: +4 RNG: All Hostile Models within RNG suffer a [Terror Attack](#terrorattacks) dealing WNDs equal to Successes. Crit: Impose [Terrified Condition](#conditions). 
+- **King (Heavenly Dive)** +2 RNG +3 ATK. Place Adversary at RNG 0” of Target. Target Suffers Melee Attack. 
+- **Queen (Arcing Slash):** All Hostile Models within RNG suffer a Melee Attack. Models hit are pushed 2” away. 
+- **Jack (Touching Earth):** +2 ATK. Target suffers a Melee attack. If successful, please [Area 2](#areas) [Difficult Terrain](#terrain) centred directly underneath Target’s base.
+
+Special Suit
+
+- **Ace, Defensive (Harrowing Chorus):** As Standard. 
+- **King, Defensive (Beloved Breath):** Place an [Area 3](#areas) Beloved Breath centred directly beneath the Adversary’s base.
+- **Queen, Aggressive (Arcing Slash)**: As Standard but Crit: Impose [Terrified Condition](#conditions).
+- **Jack, Defensive (Compassionate Gaze):** +4 RNG. Target Suffers [Terror Attack](#terrorattacks). On success, impose [Terrified Condition](#conditions). Crit: Impose [Knocked Down Condition](#conditions). 
+
+
+
+## 4. A Neonate Wurm {#neonate-wurm .unnumbered}
+
+A monstrous and writhing shape of muscle bound in a lustrous carapace. A thousand razored and hooked legs drag its mass in undulating patterns. Twin ridged prongs set atop its eyeless mask probe and search along the ground, perceptive of disturbances in grains of sand leagues away.
+
+Said to be the harbingers of an arid and torrid age augured by the expanding dunes, only the youngest emerge from the deep to feed and grow. Guides plead their charges to abide that nights in the desert must be spent in silence, lest they wake the mothers, ripened by millenia, that sleep beneath the crystalline sand.
+
+Table: Neonate Wurm
+
+| **SPD** | **ATK** | **RNG** | **DEF** | **TER** | **WND** |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+|   6”    |    6    |   2"    |    7    |    5    |   25    |
+
+### Special Rules {-}
+
+**Dust Devil**: [Area 2](#areas). Treated as [Dangerous and Obscuring Terrain](#terrain).
+
+### Minions {-}
+
+None.
+
+### Adversary Deck {-}
+
+#### Hit Locations {-}
+
+- Antennae (10): 5 WNDs. Blinded ([Disadvantage](#adv) to Attacks).
+- Mandible (9): 5 WNDs. Broken (-1 ATK)
+- Carapace (6-8): 5 WNDs. Cracked (-1 DEF).
+- Upper Limbs (4-5): 5 WNDs. Maimed (-1 SPD).
+- Lower Limbs (2-3) 5 WNDs. Maimed (-1 SPD).
+
+#### Actions {-}
+
+Standard Suits
+
+- **Ace (Venomous Stab):** +3 ATK. Melee Attack. Crit: Impose [Poisoned Condition](#conditions).
+- **King (Whirling Slashes)**: +1 RNG. All Hostile Models within RNG suffer Melee Attack. Place an [Area 2](#areas) Dust Devil centred directly beneath the Adversary’s base.
+- **Queen (Lunging Snatch):** Target suffers a Melee Attack. If successful, place Target within 0" of Adversary. Crit: Impose [Knocked Down Condition](#conditions).
+- **Jack (Spinning Lash):** Target suffers a Melee Attack.
+
+Special Suit
+
+- **Ace, Defensive (Self-Laceration)**: All future Attacks by the Adversary gain "Crit: Impose [Poisoned Condition](#conditions)".
+- **King, Aggressive (Advancing Spear):** +1 SPD. Target suffers Melee Attack. If successful, impose [Poisoned Condition](#conditions).
+- **Queen, Aggressive (Lunging Snatch):** As Standard.
+- **Jack, Aggressive (Spinning Lash):** As Standard.
+
+
+
+## 5. The Wandering Son of the Mountain {#wandering-son .unnumbered}
+
+Pale, emaciated, and long-limbed. Hunched over at the waist with primordial shale protruding from its skin. The Wandering Son carries an old oak as a club and attacks caravans and cattle that wander too deep into the mountain.
+
+In nearby villages, children are told that the moanings of the wind at night are the cries of the Wandering Son. He weeps for the loss of his siblings, the great kingdom of his people, and his pitiful fate as brigand and devourer of humankind. 
+
+Table: Wandering Son of the Mountain
+
+| **SPD** | **ATK** | **RNG** | **DEF** | **TER** | **WND** |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+|   5”    |    7    |   2"    |    6    |    6    |   20    |
+
+### Special Rules {-}
+
+Immune to [Freezing Condition](#conditions). 
+
+**Rock Throw**: The [Area 2](#areas) placed by this action is considered [Difficult Terrain](#terrain).
+
+### Minons {-}
+
+None.
+
+### Adversary Deck {-}
+
+#### Hit Locations {-}
+
+- Head (10): 5 WNDs. Blinded ([Disadvantage](#adv) to Attacks).
+- Torso (8-9): 5 WNDs. Exhausted (-1 DEF).
+- Upper Limb (5-7): 5 WNDs. Maimed arm (-1 ATK).
+- Lower Limbs (2-4) 5 WNDs. Slashed heels (-1 SPD).
+
+#### Actions {-}
+
+Standard Suits
+
+- **Ace (Sweeping Smash)**: +2 ATK +1 RNG. All Hostile Models within RNG suffer a Melee Attack. Models hit are pushed 2” away. 
+- **King (Rock Throw)**: +4 RNG. Target suffers a Shooting Attack. If successful, Target is Placed using a [Scatter Roll](#scatter), then place [Area 2](#areas) centred directly beneath Target’s previous location. If failed, place Area 2 using Scatter Roll.
+- **Queen (Grab and Throw):** +1 ATK. Target suffers a Melee attack. If successful, Target is Placed based on a [Scatter Roll](#scatter). 
+- **Jack (Overhead Slam):** Target suffers a Melee Attack. Crit: Impose [Stunned Condition](#conditions).
+
+Special Suit
+
+- **Ace, Aggressive (Sweeping Smash)**: As Standard.
+- **King, Defensive (Shattering Roar):** +2 RNG. All Hostile Models within RNG suffer a [Terror Attack](#terrorattacks). If successful, impose the [Terrified Condition](#conditions) on affected Models. 
+- **Queen, Aggressive (Grab and Throw):** As Standard.
+- **Jack, Aggressive (Overhead Slam):** As Standard. 
+

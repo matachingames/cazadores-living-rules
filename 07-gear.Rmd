@@ -7,6 +7,8 @@ Each Cazador or **[Companion](#companion-types)**, may be equipped with up to 3 
 
 ## Weapons {#gear-weapons}
 
+### Melee Weapons {-}
+
 Table: (#tab:melee-weapons) Melee Weapons
 
 |                    Weapon                     | POW  | RNG  |                     Abilities and Other                      | Renown |
@@ -19,4 +21,53 @@ Table: (#tab:melee-weapons) Melee Weapons
 |                Staff or Spear                 |  0   |  2"  |                          2-handed.                           |   1    |
 |                     Torch                     |  -1  |  1"  |          Crit: Impose Burning Condition. 1-handed.           |   1    |
 |                     Whip                      |  -1  |  2"  |                      -1 Tick to Attack.                      |   1    |
+
+### Shooting Weapons {-}
+
+Table: (#tab:shooting-weapons) Shooting Weapons
+
+|      Weapon      | POW  | RNG  |                     Abilities and Other                      | Renown |
+| :--------------: | :--: | :--: | :----------------------------------------------------------: | :----: |
+|       Bow        |  0   | 3-8" |                           2-handed                           |   1    |
+|     Crossbow     |  1   | 3-8" |                 +1 Tick to Reload. 2-handed                  |   1    |
+|       Net        |  -   | 3-5" | On Success, impose Defenceless Condition. +1 Tick to Attack. Ammo 2. 1-handed |   2    |
+| Flintlock Pistol |  2   | 3-5" |                 +2 Tick to Reload. 1-handed.                 |   2    |
+| Flintlock Rifle  |  2   | 3-8" |        +1 Tick to Attack. +2 Tick to Reload. 2-handed        |   2    |
+| Throwing Knives  |  0   | 3-5" |                          1-handed.                           |   1    |
+
+### Arcane Weapons {-}
+
+Table: (#tab:arcane-weapons) Arcane Weapons
+
+|      Weapon      | POW  | RNG  |                     Abilities and Other                      | Renown |
+| :--------------: | :--: | :--: | :----------------------------------------------------------: | :----: |
+| Book of Rituals  |  0   |  0   | Choose up to 2 Rituals. While readied, Model can cast inscribed Rituals as if they were known. 1-handed. |   3    |
+| Religious Symbol |  0   |  0   | Choose a known Ritual. +2 Lore when casting that Ritual. Failing to cast that Ritual results in the casting Model taking the Terrified Condition. 1-handed. |   3    |
+
+## Armour {#gear-armor}
+
+Table: (#tab:armour) Armour
+
+|  Type  | Rating | SPD Penalty | Renown |
+| :----: | :----: | :---------: | :----: |
+| Light  |   1    |      0      |   1    |
+| Medium |   2    |     -1      |   3    |
+| Heavy  |   3    |     -2      |   5    |
+
+## Special Gear
+
+Table: (#tab:special-gear) Special Gear
+
+|        Gear        | POW  | RNG  |                     Abilities and Other                      | Renown |
+| :----------------: | :--: | :--: | :----------------------------------------------------------: | :----: |
+|   Burning Pitch    |  -   |  -   | Use Gear (Hunt Check). On Success, one of Models’ Weapons gains “Crit: Impose Burning Condition” for the rest of the Hunt. Ammo 2. |   1    |
+| Crystalline Powder |  -   |  -   | Use Gear (Fortitude Check). On Success, Model gains d5 WNDs. On fail, Model suffers the Terrified Condition from the Adversary. Ammo 1. |   1    |
+|     Fire bomb      |  -   | 3-5" | Attack (Shooting Check; must Ready). On Success, place Area 2 on Target point. On fail, Scatter Roll from point. All Models that enter Area, make a Fortitude Check (DT 7) or suffer the Burning Condition. Ammo 2. 1-handed. |   1    |
+|  Lacerating Trap   |  -   |  2"  | Use Gear (Hunt Check; must Ready). On Success, place Area 2 on Target point. On fail, do not place. First Model that enters Area, makes an Athletics Check (DT 7) or suffers Bleeding Condition. Ammo 2. 1-handed. |   1    |
+|  Elysian Incense   |  -   |  -   | Use Gear (Fortitude Check). On Success, Model is immune to Terrified Condition until the end of the Hunt. On fail, Model loses d10 WNDs. Ammo 1. |   1    |
+|     Poison Urn     |  -   | 3-5" | Attack (Shooting Check; must Ready). On Success, place Area 2 on Target point. On fail, Scatter Roll from point. All Models that enter Area, make a Fortitude Check (DT 7) or suffer the Poisoned Condition. Ammo 2. 1-handed. |   1    |
+|    Poison Vial     |  -   |  -   | Use Gear (Hunt Check). On Success, one of Models’ Weapons gains “Crit: Impose Poisoned Condition” for the rest of the Hunt. Ammo 2. |   1    |
+|    Sawbones Kit    |  -   |  1"  | Use Gear (Lore Check, DT 5; must Ready). Can Target any Model within RNG. Target recovers WNDs equal to Successes up to a max of 5. Ammo 3. 2-handed. |   1    |
+|   Smoke Canister   |  -   | 3-5" | Attack (Shooting Check; must Ready). On Success, place Area 3 on Target point. On fail, Scatter Roll from point. Area is treated as Difficult and Obscuring Terrain. Ammo 2. 1-handed. |   1    |
+|  Strangling Snare  |  -   |  2"  | Use Gear (Hunt Check; must Ready). On Success, place Area 2 on Target point. On fail, do not place. First Model that enters Area, makes an Athletics Check (DT 7) or suffers Knocked Down Condition. Ammo 2. 1-handed. |   1    |
 

@@ -1,0 +1,53 @@
+# Book of the Adversary {#adversaryintro}
+
+##### *Here you’ll find what little is known about the abysmal and eternal foes of the Hunt.* {-}
+
+[**The Adversary**](#adeck) is the quarry of a [**Hunt**](#worldsum), though they are far from easy prey. They are powerful, cunning, and desperate to survive their encounter with a [**Cazador**](#cazadores) and their **Pack**. Adversaries are sometimes supported by a cadre of (**Minions**)[#foes] that fight and die to defend them, but the Adversary alone is the well from which the Hunt and its horrors abound. 
+
+Each Adversary is unique, armed with knowledge and abilities that set it apart from other earthly creatures. However, all Adversaries are immune to the effects of [**Difficult** and **Dangerous Terrain**](#terrain) and, despite a Pack’s numbers, they are never considered [**Surrounded**](#surrounded). 
+
+
+
+## **Using This Book** {-}
+
+In this book you’ll find everything that you need to set your Pack of Cazadores and Companions against the fearsome and unnatural creatures of the Hunt. 
+
+In *Foe Mechanics*, you’ll find the most important rules that affect **Foes**, already contained in the book of [*The Hunter*](#hunterintro), reprinted here for easy reference. 
+
+In [*Adversaries*](#adversary-list), you’ll find an account of all the Adversaries known to the keepers of the Hunt. In [*Adversary Sheets*](www.matachingames.itch.io/cazadores), you’ll also find a pre-filled Model Sheet for each Adversary in this book so that you can print or photocopy it for use at the table.
+
+Lastly, in [*Creating Adversaries*](#create-adversary), you’ll find some rough guidelines for you to tap into the whirling nightmares and horrors of the Hunt in your own mind. 
+
+## Changelog {-}
+
+### v.03 {-}
+
+#### General {-}
+
+- The Adversary section is broken out into its own “book” for ease of use!
+- New Adversaries: An Accursed Construct, A Creature Wreathed in Light, The Constant Emperor’s Praetorians, and A Neonate Wyrm.
+
+#### Wandering Son of the Mountain {-}
+
+- He’s received a few buffs to his stats (+1 ATK, +1 DEF, +TER), since he was a little too easy even as a starting Adversary. 
+- Some attacks have also received tweaks for clarity and balance.
+
+### v.04 {-}
+
+#### General {-}
+
+- Reduced the +RNG on all Adversary Action by 1 to make it a little easier to maneuver around them.
+
+#### Constant Emperor’s Praetorians {-}
+
+- -1 ATK and -1 SPD to the Praetorians who were a tad too strong. 
+- Special rules for *The Triumvirate* have been renamed under *TThread That Binds* so that The Triumvirate now explains how they are deployed.
+- Additionally, clarified how much the Praetorian’s Personal Clock is advanced when they each take different actions while resolving decision trees.
+
+#### Creature Wreathed in Light {-}
+
+- -1 SPD to Attributes.
+
+#### Neonate Wurm {-}
+
+- -1 SPD to Attributes.

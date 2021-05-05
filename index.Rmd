@@ -35,7 +35,7 @@ Anyone may also publish free or commercial material that declares compatibility 
 
 ## Inspiration {-}
 
-This game is built upon the innovations, thrills, and genius of a host of other games and pieces of media. To the best of the author’s abilities, connections between this game and these various works are drawn in *Appendix N*. 
+This game is built upon the innovations, thrills, and genius of a host of other games and pieces of media. To the best of the author’s abilities, connections between this game and these various works are drawn in [*Appendix N*](#appendix-n). 
 
 Please seek out and explore these other works.      
 
@@ -48,3 +48,92 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
+
+## Appendix N {#appendix-n .unnumbered}
+
+Every good idea here likely came from some other game, directly or via inspiration. If you find my little game even remotely interesting, here are other games you should check out:
+
+- **Perilous Tales by Planet Smasher Games**: The source for the wonderful d10 pool mechanic used to resolve everything in this game.
+- **World of Warcraft Miniatures Game**: For its ingenious time mechanic that makes its way here to make the combat feel dynamic.
+- **The Dolorous Stroke by Dying Stylishly:** The game that set the perspective for narrative gaming present here. It’s Hit Location deck also inspired the Adversary Deck system. 
+- **Rangers of Shadow Deep by Joseph McCulloch:** I think the game that sets the bar for solo games of this type. Worth every bit of your time.
+- **Hunters of the First Blood by Aegeos Game:** A game that made it clear that if I could bring half its flavor to my own game, I’d be happy. It’s also the source for the Areas term and usage.
+- **Sengokou Monster Hunter**: A great monster hunting game set in feudal japan.
+
+Additionally, there are multiple sources of inspiration for this game: movies, video games, and other things. Here are a few:
+
+- Bloodborne and the Dark Souls series of video games
+- The Berserk Manga
+- The Monster Hunter series, specially Monster Hunter World.
+- Hunt: Showdown video game
+- Brotherhood of the Wolf (2001) film
+
+## Changelog {-}
+
+### v.03  {-}
+
+#### General  {-}
+
+- An Introduction has been added!
+
+- Wording clarification throughout.
+
+- Addition of **Hostile** and **Friendly** under “Models & Scale”.
+
+- Addition of **Place** as a game term under “Overlapping”.
+
+- **Criticals** now still count as Successes even when used to activate an Ability.
+
+- Goodbye Nerve! (for now): Nerve has been removed from the game and is instead subsumed under Wounds. Nerve added an additional level of fiddliness to the game (e.g., requiring codifying Terror Defence), when it didn’t add much to enjoyment. 
+
+- - Terror Ratings are still in place and Foes still Terror Attacks, which function the same way (DT Target Fortitude), but it’s clarified that most often the victim gains the Terrified Condition, with WNDs reserved for rarer cases.
+  - Terror now also functions as Foes’ Skill for clearing Conditions, so it better mirrors Fortitude, opening design space for high DEF “hard to crack” Foes that are susceptible to Conditions (e.g., Burning, etc.) due to low Terror Ratings. 
+
+- Introduction of “else” and clarification on how to resolve **Foes’ Decision Trees**.
+
+#### Combat  {-}
+
+- **Parry** has been changed to only affect Melee Attacks. Tick cost increased to 4. Wording clarification that the Attack from a successful Parry can only be directed at the Model’s Target for the Parry action. 
+- **Hide** Tick cost increased to 3. Model must now also be within 1” of Obscuring or Blocking Terrain. Wording clarification that DT is equal to the highest Hostile ATK within 3”. 
+- **Hidden** **Condition** clarified that a Model with this Condition can still be hit by Area attacks and other effects that do not explicitly require it to be the Target of the Action. Condition now also expires at the end of the Round.
+- **Defenceless Condition** changed so that the Attacker no longer gains Advantage on Attacks against the affected Model.
+
+#### Weapons and Gear  {-}
+
+- Introduction of **Readied** instead of **Equipped** Weapon to determine which Weapons can be used in an Attack.
+
+- - Models can carry 3 Weapons into a Hunt although only 1 Weapon per “hand” can be **Readied**. Includes addition of “Dual Wielding” and clarification that only Abilities and Critical Effects on Readied Weapons have an effect in play.
+
+- Introduced the concept of **Special Gear** and the Max 2 limitation for further customization of Models. 
+
+- Introduction of the **Use Gear** Action alongside Gear that have special effects in game.
+
+- **Armor** was a little too good in the previous iteration so the Renown cost for Medium and Heavy Armor has been increased.
+
+#### Rituals  {-}
+
+- Addition of Rituals into game, clarification of Max 3 Rituals, including how their effects function in-game.
+
+#### Narrative Rules  {-}
+
+- **Objectives** added into the game! 
+
+### v.04  {-}
+
+####  General  {-}
+
+- Introduced a d100 roll under *Other Rolls*.
+- *Overlapping Rules* have been changed so that Friendly Models can no overlap while moving to make it easier to traverse the battlefield.
+- The keyword **Vessel** has been changed to **Passive** to open design space for its usage in more cases.
+
+#### Actions  {-}
+
+- Other Actions have been renamed to **Special Actions**.
+- Added a **Pass Action** to codify what happens when a Model chooses not to take an Action.
+- **Cover Ground Action** has had its Tick Cost increased to 3. Additionally, on success, the Model can move up to 1x SPD + 1” per Success. It’s also been clarified that on failure, the Model cannot move at all from this Action.
+- Added some rules to deal with Climbing, Falling, and other aspects of **Situational Movement**.
+
+#### Objectives  {-}
+
+- Objective-specific Gear has been made less scarce, since it made completing objectives unnecessary difficult (since at least one Pack Model will be defeated during a Hunt in most games). 
+- Distances between multiple Objectives reduced for *Retrieve the Icon* and *Forge the Seal* from 5 to 3".

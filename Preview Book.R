@@ -9,4 +9,4 @@ serve_book(dir = ".", output_dir = "docs", preview = TRUE,
 http://127.0.0.1:4321
 
 # Stop servr
-servr::daemon_stop(1)
+servr::daemon_stop(0)

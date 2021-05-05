@@ -1,0 +1,233 @@
+# Objectives {#obj}
+
+**Objectives** introduce an additional goal for the **Pack** to accomplish beyond defeating the Adversary. Each Objective details any changes to the **[Game Setup](#setup)** and special rules that only apply when playing with that Objective, and how **[Renown](#renown)** is earned or lost due to the Objective.
+
+
+
+There are 10 Objectives and these have been numbered so they can be randomly introduced into a **Hunt** by rolling a d10 prior to play. Any setup required for an Objective should always be done before deploying **Models**, including **Foes**. 
+
+
+
+The Renown rules for each Objective are always used in *[The Eternal Hunt](#eternalintro)*, but can also be used on their own to help link together multiple games by introducing consequences for the Pack’s successes and failures. Renown earned or lost is always calculated at the end of the Hunt. 
+
+## Renown and the Adversary {#renown-adversary .unnumbered}
+
+When using the Renown rules for Objectives, Renown is also always earned based on the degree of damage done to the Adversary:
+
+- Gain 1d5 Renown for *each* of the Adversary’s **Hit Locations** that have been exhausted (reduced to 0 WNDs). If the Adversary is defeated (all Hit Locations reduced to 0 WNDs), gain an additional 1d5 Renown.
+
+## 1. Assassinate the Vessel {#obj-vessel .unnumbered}
+
+**Objective:** Kill the human Vessel Model linked to the Adversary. To do so, the Pack must reduce the Vessel’s WNDs to 0. 
+
+**Game Setup:** Deploy the Vessel at the centre of the table, then deploy all Foes using Scatter Rolls from the Vessel. 
+
+### Special Rules {-}
+
+#### Vessel {-}
+
+[Area 1-sized](#areas) Model. This model is considered a [Hostile Model](#scale) to the Pack. The Vessel has the following  [Attributes](#fattributes):
+
+Table: Vessel Attributes
+
+| **SPD** | **ATK** | **RNG** | **DEF** | **TER** | **WND** |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+|    -    |    -    |    -    |    6    |    5    |   10    |
+|         |         |         |         |         |         |
+
+**Passive**: This Model cannot execute any Actions.     
+
+**Disruption:** When the Vessel is defeated, the Adversary immediately suffers the Knocked Down Condition.
+
+### Renown {-}
+
+- Gain 1d10 + 2 Renown for assassinating the Vessel. 
+- Lose 1d5 Renown for failing to assassinate the Vessel. 
+
+## 2. Banish The Well {#obj-banish .unnumbered}
+
+**Objective:**  Pack Model must succeed at a [Cast Ritual Action](#actions) (DT 5) within 1” of the Cosmic Well and while no [Hostile Models](#scale) are within 1” of the Cosmic Well.
+
+**Game Setup:** Place a Cosmic Well ([Area](#areas) 2) from the centre of the Play Area with a [Scatter Roll](#scatter). 
+
+### Special Rules {-}
+
+At the end of each Round, all Foes recover d5 Wounds if the Cosmic Well has not been banished. Roll once and apply the result to all Foes.
+
+#### Renown {-}
+
+- Gain 1d10 + 2 Renown for successfully banishing the Well.
+- Lose d5 Renown for failing to banish the Well.
+
+## 3. Capture the Beast {#obj-capture .unnumbered}
+
+**Objective:** Pack Model captures the Adversary by succeeding at an Attack Action with a Net, then the roll to subdue the Adversary succeeds.
+**Game Setup:** None required.
+
+### Special Rules {-}
+
+**Net**: Net Weapon as described in *[Gear](#shooting-weapons)*. 1 Pack Model can temporarily take the Net into the Hunt at no cost, exchanging it for one of their Weapons if necessary to remain within the 3 Weapon limit. After the Hunt, the Net is removed from the Model’s Gear and, if needed, the exchanged Weapon is returned. Additional Nets can be purchased and are treated as normal. 
+
+#### Capturing the Adversary {-}
+
+ When a Pack Model succeeds at an Attack Action with the Net against the Adversary, resolve the Attack as normal. Then, at the end of the [Round](#rounds) upon which this Attack succeeded, immediately make a **Subdue Check** (DT 5) using the number of the Adversary’s Hit Locations exhausted as the Rating (e.g., 3 Hit Locations reduced to 0 WNDs = 3d10s against DT 5). 
+
+- If successful, the Adversary is captured and considered defeated.
+- If failed, the Adversary breaks from the Net and another Attack Action with the Net must succeed to trigger this roll again on a future Round.
+
+If the Adversary is defeated (all Hit Locations exhausted ) before the **Capturing the Adversary** roll succeeds, then the Objective cannot be accomplished. 
+
+The Pack gains Renown as normal for the Adversary’s Hit Locations that are exhausted when it is captured, although they cannot gain the Renown for defeating the Adversary in the traditional manner (i.e., [exhausting all WNDs](#renown-adversary)). 
+
+### Renown {-}
+
+- Gain 1d10 + 5 for successfully capturing the Adversary.
+- Lose 1d5 for failing to capture the Adversary. 
+
+## 4. Escape the Ambush {#obj-ambush .unnumbered}
+
+**Objective:** Flee from the Play Area with as many Pack Models as possible.
+
+**Game Setup:** Deploy all Pack Models with [Scatter Rolls](#scatter) from the centre of the Play Area. Next, deploy The Adversary using a Scatter Roll from a random Pack Model. Deploy all Foes in this manner, each time using a different Pack Model as the starting point for the Scatter Roll.
+
+### Special Rules {-}
+
+None.
+
+### Renown {-}
+
+- Gain 1d5 + 1 Renown for each Pack Model that successfully Flees. 
+- Lose 1d5 Renown for each Pack Model that does not Flee.
+
+## 5. Exterminate Foes {#obj-exterminate .unnumbered}
+
+**Objective:** The Pack must defeat all Foes during the Hunt. 
+
+**Game Setup:** None required.
+
+### Special Rules {-}
+
+If a Minion can be continuously “respawned” by the Adversary, the Pack only needs to defeat three Minions to consider the Minion defeated for the purposes of the objective.
+
+### Renown {-}
+
+- Gain 1d10 + 5 Renown for defeating all Foes. 
+- Lose 1d5 Renown for each Foe that is not defeated. 
+
+## 6. Forge The Seal {#obj-seal .unnumbered}
+
+**Objective**: Pack Models must apply Warding Talc to three Warding Points by succeeding at a [Cast Ritual Action](#actions) (DT 5) while within 1” of a Warding Point.
+
+**Game Setup:** Place three Warding Points (Area 1) from the centre of the Play Area using a [Scatter Roll](#scatter) but using a d10 instead of a d5 to determine distance of the scatter. All Warding Points should be placed at least 3” away from each other. 
+
+### Special Rules {-}
+
+**Warding Points**: [Area 1](#areas). A cosmically-aligned space imbued with power. Warding Talc can be applied to a Warding Point by a Pack Model within 1” that is carrying Warding Talc by succeeding at a Cast Ritual Action (DT 5).
+
+**Warding Talc** (Lore Check, DT 5)**:**  Warding Talc does not count as Gear, therefore Models cannot exceed their Max Gear allotment due to carrying Warding Talc. Warding Talc is considered to have unlimited Ammo. 
+
+3 Pack Models can start with Warding Talc in their Gear at no cost. Additional doses of Warding Talc can be acquired for 1 Renown each.
+
+### Renown {-}
+
+- Gain 1d10 Renown for applying Warding Talc to all Warding Points
+- Gain 1d10 Renown if the Adversary is within the triangle created by the lines between Warding Points when the last point is warded.
+- Lose 1d5 Renown for each Warding Point not successfully warded.
+
+## 7. Raze Habitat {#obj-raze .unnumbered}
+
+**Objective:** Destroy the Adversary’s Territory Area by placing an Explosive Barrel. To do so, one Pack Model with the Explosive Barrel must succeed at a [Use Gear Action](#actions) while within the Area. At the end of the next Round after it is placed the Explosive Barrel detonates and the objective is accomplished. At least one Pack Model must be alive and in the Play Area when this occurs. 
+
+**Game Setup:** Place an [Area 3](#areas) counter representing the core of the Adversary’s territory with a [Scatter Roll](#scatter) from the centre of the Play Area. 
+
+### Special Rules {-}
+
+**Explosive Barrel** (Hunt Check, DT 5; must Ready)**:** Area 1. 2-handed. Models within 5” suffer a Rating 5 Shooting Attack when it detonates. 
+
+The Explosive Barrel does not count as Gear, therefore Models cannot exceed their Max Gear allotment due to carrying the Explosive Barrel. Each Model can carry 1 Explosive Barrel and it is considered to be Ammo 1. 
+
+The Explosive Barrel is dropped within 1” of a Model reduced to 0 WNDs. Models can also choose to drop the Explosive Barrel at no cost but must succeed at a Hunt Check (DT 5) within 1” to pick it up.
+
+3 Pack Models cans start the Hunt with 1 Explosive Barrel in their Gear. Additional Explosive Barrels can be acquired for 1 Renown each. 
+
+### Renown {-}
+
+- Gain 1d10 + 2 Renown for successfully destroying the Area. 
+- Lose d5 Renown if any Friendly Models lose WNDs due to the Explosive Barrel’s detonation. 
+
+## 8. Recover the Artifacts {#obj-artifacts .unnumbered}
+
+**Objective:**  Pack Models must recover the Artifacts by succeeding at a [Use Gear Action](#actions) (Hunt Check) within 1” of an Artifact and survive until the Hunt ends or Flee from the Play Area.
+
+**Game Setup:** Place three Artifacts ([Area 1](#areas)) from the centre of the Play Area with a [Scatter Roll](#scatter). 
+
+### Special Rules {-}
+
+**Artifact**: Area 1. Artifacts do not count as Gear, therefore Models cannot exceed their Max Gear allotment due to carrying Artifacts. Each Model can carry up to 3 Artifacts. 
+
+Recover an Artifact by succeeding at a Use Gear Action (Hunt Check) within 1” of the Artifact. Models reduced to 0 WNDs drop their Artifacts within 1” of the Model. Models can also choose to drop their Artifacts at no cost but must succeed at a Use Gear Action (Hunt Check) within 1” to pick them up.
+
+### Renown {-}
+
+- Gain 1d5 Renown for each Artifact recovered. 
+- Lose 1 Renown for each Artifact left behind. 
+
+## 9. Retrieve the Icon {#obj-icon .unnumbered}
+
+**Objective:** Find, retrieve, and escape with a lost Icon. To do so, a Pack Model must find the Genuine Icon among the False Icons by succeeding at a [Cast Ritual Action](#actions) (DT 5) while within 1” of the Icon, then Flee the Play Area or survive until the end of the Hunt. 
+
+**Game Setup:** Place three Icons from the centre of the Play Area using a [Scatter Roll](#scatter) but using a d10 instead of a d5 to determine distance of scatter. All Icons should be placed at least 3” away from each other. 
+
+### Special Rules {-}
+
+**False & Genuine Icons**: Area 1. Icons do not count as Gear, therefore Models cannot exceed their Max Gear allotment due to carrying Icons. Each Model can carry up to 3 Icons. 
+
+Models that reach 0 WNDs drop their Icons within 1” of the Model. Models can also choose to drop their Icons at no cost but must succeed at a Cast Ritual Action (DT 5) within 1” to pick them up.
+
+**Finding the Genuine Icon**: When a Pack Model succeeds at a Cast Ritual Action (DT 5) within 1” of an Icon, roll a 1d10 to discover if it is a Genuine or False Icon. 
+
+- On a 1-8, the Icon is False; 
+- On a 9-10, the Icon is Genuine.
+
+If the found Icon is the last remaining Icon on the Play Area to be discovered, it is automatically considered the Genuine Icon. 
+
+### Renown {-}
+
+- Gain 1d10 Renown for recovering the Genuine Icon. 
+- Gain 1 Renown for each False Icon recovered.
+- Lose 1d5 Renown for failing to recover the Genuine Icon. 
+
+## 10. Save The Prisoner {#obj-prisoner .unnumbered}
+
+**Objective:** The Prisoner Model successfully Flees the Play Area.
+
+**Game Setup:** Deploy the Adversary first, then deploy the Prisoner Model with a [Scatter Roll](#scatter) from the Adversary. Minions are deployed as normal after.
+
+### Special Rules {-}
+
+#### Prisoner {-}
+
+[Area 1](#areas). This Model is considered a [Friendly Model](#scale) to the Pack, hostile to Foes, and is controlled by the players once freed. 
+
+Table: Prisoner Attributes
+
+| **SPD** | **PROW** | **SHRP** | **WIT** | **RES** | **WND** |
+| :-----: | :------: | :------: | :-----: | :-----: | :-----: |
+|    3    |    2     |    2     |    2    |    2    |   10    |
+
+**Pacifist**: This model cannot execute any Combat Actions.
+
+```{block, type = 'rnote'}
+Despite its Hostile status, Foes will not attack the Prisoner until it is Freed.
+```
+
+**Freeing the Prisoner****:** Before the Prisoner can be controlled by the players, one Pack Model must succeed at an [Aid Action](#actions) with the Prisoner as the Target. If successful, the Prisoner becomes a Friendly Model eligible on the next Tick.
+
+**Aiding the Prisoner**: A Pack Model can succeed at the Aid Action to award the Prisoner Advantage on their next attempt at the Flee Action. This Advantage expires at the end of the Prisoner’s next Turn. 
+
+### Renown {-}
+
+- Gain 2 Renown for freeing the Prisoner.
+- Gain 1d10 Renown if the Prisoner successfully Flees the Play Area. 
+- Lose d5 Renown if the Prisoner fails to Flee the Play Area.
+

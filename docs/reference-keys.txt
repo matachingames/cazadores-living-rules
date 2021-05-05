@@ -5,6 +5,11 @@ tab:conditions
 tab:start-attributes
 tab:cazador-restrictions
 tab:melee-weapons
+tab:shooting-weapons
+tab:arcane-weapons
+tab:armour
+tab:special-gear
+tab:rituals
 hunterintro
 the-game
 worldsum
@@ -39,3 +44,10 @@ buildcazadores
 companion-types
 gear
 gear-weapons
+gear-armor
+special-gear
+rituals
+obj
+adversaryintro
+foe-mechs
+adversary-list

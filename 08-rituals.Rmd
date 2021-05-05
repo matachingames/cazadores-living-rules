@@ -1,0 +1,38 @@
+# Rituals {#rituals}
+
+Over the centuries, the **Hunt** has yielded a harvest of dark secrets and unnatural lore. The most abhorrent and compelling of these are **Rituals**. These dark incantations, inscriptions, and songs allow the most dogged of **[Cazadores](#cazadores)** to bend the natural order to their will and wield it against their **[Foes](#foes)**. 
+
+
+
+In campaigns, Cazadores can also burden their most steadfast companions with the contrivances of these despicable hymns. 
+
+
+
+The frailty of the human will means Cazadores and Companions can only bear knowledge of 3 Rituals and must forego all memory of an existing Ritual to learn the inner workings of another. Similarly, successfully casting a Ritual also temporarily corrupts the portion of the mind on which it is inscribed, limiting each Ritual to a single successful casting per **[Hunt](#playing)**.
+
+```{block, type = 'rnote'}
+Unless noted otherwise:
+
+- Ongoing effects expire at the end of the Hunt.
+- Rituals that affect all models include the casting Model. 
+- When the effects of a Ritual require a roll, roll once and apply the value to all Models affected.
+
+*Fiendish tools make no distinctions 'tween earthly flesh.*
+```
+Table: (#tab:rituals) Rituals
+
+|         Name          | POW  | RNG  |                            Effect                            | Renown |
+| :-------------------: | :--: | :--: | :----------------------------------------------------------: | :----: |
+|   Aria of Reversal    |  -   |  5"  |                Target Model recovers 5" WNDs.                |   2    |
+|   Celestial Visage    |  -   |  5"  | Target Hostile Model gains the Terrified Condition from this Model. |   2    |
+|      Cosmic Rift      |  -   | 10"  | Place two Area 2 within 10” of the Model. Any Model that enters one of these Areas is immediately Placed within 1” of the other Area. |   3    |
+|    Corroding Haze     |  -   |  5"  | All Models within 5” succeed on a Fortitude Check (DT 7) or suffer the Poisoned Condition. |   2    |
+|     Ferrous Hide      |  -   |  5"  | Target Model gains Advantage to defend against Melee Attacks |   3    |
+|    Gelid Whispers     |  7   |  3"  | Target Model suffers Shooting Attack equal to Ritual POW. Crit: Impose Freezing Condition. |   2    |
+|   Indomitable Edge    |  -   |  -   | One of the Model’s Readied Weapons gains “Crit: Impose the Stunned Condition”. |   2    |
+|     Molten Earth      |  -   |  8"  | Place Area 3 on Target point. Area is treated as Dangerous Terrain and all Models who enter it must succeed on a Fortitude Check (DT 7) or suffer the Burning Condition. |   2    |
+|      Numbing Fog      |  -   |  5"  |            All Models within 5” recover d5 WNDs.             |   2    |
+|     Sanguine Mark     |  -   |  8"  |    Advantage to all Ranged Attacks against Target Model.     |   3    |
+| Serpentine Affliciton |  -   |  5"  | Target Model gains Advantage to defend against Shooting Attacks |   3    |
+|   Threads of Light    |  7   |  8"  | Target Model suffers Shooting Attack Equal to Ritual POW. Critical: Impose Burning Condition |   2    |
+
